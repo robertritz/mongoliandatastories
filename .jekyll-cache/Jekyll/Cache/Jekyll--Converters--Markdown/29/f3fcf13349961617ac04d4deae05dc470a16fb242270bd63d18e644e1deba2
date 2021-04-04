@@ -1,0 +1,20 @@
+I"�<h4 id="but-they-are-also-richer">But they are also richer.</h4>
+
+<p>The economy is <a href="https://www.bloomberg.com/news/articles/2018-05-02/mongolia-s-swing-from-bust-to-boom-raises-question-can-it-last">picking up steam</a> in Mongolia. This is good news for the country’s businesses, who can hope the economic growth will translate to more money in peoples pockets. However, in a country that has experienced dramatic up and down swings of the economy, hope may not be in large supply.</p>
+
+<p>As I always tell my students, if you have a question, dig into it and test your hypothesis. My hypothesis is that debt levels may be reaching a critical amount that the economy can no longer bear. This will result in a lack of free cash for regular citizens and a weakening of non-mining economic growth. But hey, don’t take my word for it. Let’s look at the data.</p>
+
+<p>A huge amount of construction has taken place in recent years along with an increase in average salaries. Financing all of this building are commercial loans and also a government backed mortgage program offering the lowest rates in the country. This has led to an explosion of outstanding loans to finance the building of apartments and businesses.</p>
+
+<p>Below I’ve charted outstanding loans and deposits from 2001–2016 (the most recent year available from the national statistical office). After the mining boom in the early 2010’s loans skyrocketed.</p>
+
+<p><img src="/images/mongolians-more-debt/debt-chart.png" alt="" /></p>
+
+<p>The amount of outstanding loans is nearly 12.5 trillion MNT (just over 5 billion USD). At the same time deposits have grown significantly, but not at the same pace as loans. Ulaanbaatar leads the country in outstanding loans with 78% of all outstanding loans. These numbers combined with estimates in 2017 that there are <a href="http://theubpost.mn/2017/02/19/free-up-prices-and-dismantle-monopolies/">35–40 thousand empty apartments</a> in Ulaanbaatar are quite concerning.</p>
+
+<p>Is this debt trend national? Below I mapped the total of outstanding loans per capita in 2016 for each province (aimag) using Tableau. I excluded Ulaanbaatar as it highly imbalanced the map. As this is per capita we are balancing each provinces population to better compare them. For comparison Ulaanbaatar had a total outstanding loans per capita of 26.88 million MNT (nearly 11,000 USD).</p>
+
+<p><img src="/images/mongolians-more-debt/debt-map.png" alt="" /></p>
+
+<p>It seems pretty clear debt is consolidated primarily in Ulaanbaatar. This is both good and bad. Nearly half the population and most of the economic activity of the country is in Ulaanbaatar. However this also probably means the average UB’ier has more debt than the average person in the countryside. With <a href="https://medium.com/mongolian-data-stories/unemployment-in-mongolia-infographic-4595aab9bb85">youth unemployment over 20%</a>, debt in the nations capital may prove too much to bear.</p>
+:ET

@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "fd8bfd449ca4a190",
+    "type": "split",
+    "children": [
+      {
+        "id": "464ec207386093c1",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca3b3a6f611226f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d746d939ffdf525",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8600ffcaa052dbec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "12673cb010f99fc3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d006e5675804829d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d610b1b0b6aabc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb3029c1048398c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
+    "_posts/2018-05-08-Mongolian-more-in-debt-than-ever-before.md",
+    "_posts/2018-05-21-Mongolias-Economic-Future-Chained-China.md",
+    "_posts/2018-10-22-open-data-mongolia.md",
+    "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+    "_posts/2019-02-13-Ethical-matrix-dzud-forecasting.md",
+    "_posts/2019-09-18-Sqair-real-world-test.md",
+    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
+    "_posts/2021-02-15-Mongolias-150-000-License-Plate.md"
+  ]
+}

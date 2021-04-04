@@ -1,0 +1,64 @@
+I"#<h4 id="2020-parliamentary-election">2020 Parliamentary Election</h4>
+
+<p>The current election saw a switch back to the block voting system used in 1992 and 2008. This system has both <a href="http://blogs.ubc.ca/mongolia/2019/plurality-at-large-voting-revisited-for-2020/">positives and negatives</a>, and this system has much larger election districts than the previous single-member districts of the 2016 election. This allows us to more easily analyze the districts with the available data.</p>
+
+<p>To put all of the data together and make it user friendly, I built <a href="https://songolt.org">Songolt</a>, an interactive data explorer that allows the reader to see key indicators of election districts. The indicators covered in the app include:</p>
+
+<ul>
+  <li><strong>Population indicators</strong>: population, household size, herder percent, age group breakdown</li>
+  <li><strong>Economic indicators (self-reported)</strong>: salary, household loans, employment, education levels</li>
+  <li><strong>Quality of life indicators</strong>: crime, house type, toilet &amp; water type, heating type</li>
+</ul>
+
+<p>The data was collected from <a href="http://1212.mn">1212.mn</a> and also the <a href="http://web.nso.mn/nada/index.php/catalog/115">Household Socioeconomic Survey of 2016</a>, which is the latest survey that contains precise geographic labeling. Both data sources are maintained by the National Statistics Office of Mongolia.</p>
+
+<p>Several themes developed through my research into this data. These themes are perhaps not surprising for many readers familiar with Mongolia, but it is never a bad thing to back up observations with data. I encourage you, the reader, to explore the app yourself (<a href="https://songolt.org">link</a>), but below I give an overview of the themes for your convenience.</p>
+
+<h4 id="ulaanbaatar-vs-countryside">Ulaanbaatar vs Countryside</h4>
+
+<p>Perhaps the best-known difference in Mongolia is that of Ulaanbaatar and the countryside. The image of busy urban Ulaanbaatar juxtaposed with the bucolic countryside could hardly be more different. Indeed the data shows significant differences in many areas. Let’s compare the population pyramid for the election district with the highest population, Songinokhairkhan District in Ulaanbaatar, with the least populace, Bulgan Aimag.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/population-pyramid.png" alt="" /></p>
+
+<p>There is an obvious population difference, but the size of the age groups also shows a marked difference between the two. Where you have a large spike in the 20–40 age group in Songinokhairkhan, Bulgans’ age groups have much less variability and are quite flat from 15–50. You will see a similar trend in the highest population election districts compared with the least populated ones.</p>
+
+<p>This means the voting demographics in rural areas are more widely distributed than in urban areas. D.Byambjav and E.Gerelt-Od <a href="http://blogs.ubc.ca/mongolia/2020/voter-demography/">previously discussed</a> the large and less engaged block of voters under 35. If youth engagement initiatives are successful, this block of voters will be less powerful in rural districts that have a similar age distribution to Bulgan.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/percentage-employed.png" alt="" /></p>
+
+<p>Employment differs significantly as well between Ulaanbaatar and most rural districts. Rural election districts tend to show significantly higher rates of overall employment than the urban ones. In the chart above, the “employed percentage” refers to the proportion of the working-age population that is employed. Urban districts tend to have between 45–55% employment, with rural districts between 65–75%.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/average-salary.png" alt="" /></p>
+
+<p>Salaries are also significantly higher in Ulaanbaatar. The salaries shown above are self-reported from 2016, but they show a very clear picture. Employment levels may be higher in rural areas, but salary levels are conversely lower. This is an obvious area where the <a href="http://blogs.ubc.ca/mongolia/2020/guest-post-economic-policy-party-platforms/">economic policy of the party platforms</a> could address these inequalities.</p>
+
+<h4 id="outliers-mining-areas-and-bayan-ulgii">Outliers: Mining Areas and Bayan-Ulgii</h4>
+
+<p>The Ulaanbaatar vs countryside theme may be the biggest theme in the data, it doesn’t give the full picture. There are two sets of outliers that “buck the trend”.</p>
+
+<p>The first is that the two primary mining areas of Mongolia, Erdenet (in Orkhon) and Oyu Toloig (in Umnugovi), show significantly higher salaries, lower loan rates, and higher educations than other rural election districts.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/loans-vs-salary.png" alt="" /></p>
+
+<p>This bubble plot shows the percent of households with loans vs monthly average salaries in each election district. The two highlighted in red are Orkhon (lower right) and Umnugovi (upper left). All of the bubbles above 550k average monthly salary except for the two in red are located in Ulaanbaatar.</p>
+
+<p>These two election districts (and the urban workforce where the company offices are) have benefited heavily from the mining industry of Mongolia. Industrialization as proposed in the party platforms would most likely further benefit these areas, as this is where the raw materials would come from.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/loans-vs-salary2.png" alt="" /></p>
+
+<p>The second outlier is Bayan-Ulgii. In the chart above, the red bubble to the farthest left is Bayan-Ulgii, and the red bubble on the far right is Khan-Uul District. The average household size is 5.2, significantly larger than the most populace district Songinokhairkhan of 3.8. Besides larger family sizes, Bayan-Ulgii has the lowest average monthly salary.</p>
+
+<h4 id="ulaanbaatar-districts-have-diverseneeds">Ulaanbaatar Districts Have Diverse Needs</h4>
+
+<p>The districts of Ulaanbaatar also show diverse needs. Every district also contains part of the ger district. This means that there is a mix of urban and peri-urban in every election district of Ulaanbaatar. In the center of the city, households are connected to the central water, heating, and sewage systems. In the ger district, living standards become sharply different, with no central heat or water connections.</p>
+
+<p><img src="/images/mongolian-electoral-analysis-2020/heating-type.png" alt="" /></p>
+
+<p>The unique layout of the city districts ensures that at least 20% of the population of each district uses pit toilets and wood or coal for heat. More than 40% of Khan-Uul district households, the most affluent election district in Mongolia, use ordinary wood and coal stoves for heat.</p>
+
+<h4 id="mps-will-represent-very-diversegroups">MPs Will Represent Very Diverse Groups</h4>
+
+<p>Regardless of the outcome of the election, it is clear that the needs of citizens in election districts are not uniform, and even the common trope of UB vs the rest doesn’t hold up completely. Even though Mongolia a small country with a heavy focus on mining, it isn’t clear that the party platforms address the inequalities mentioned above.</p>
+
+<p>While the economics platforms of the DP, MPP, and Right Person Electorate all <a href="http://blogs.ubc.ca/mongolia/2020/guest-post-economic-policy-party-platforms/">focus on heavy industry</a>, it isn’t clear how heavy industry would help rural areas outside of the main mining areas lacking in high paying jobs, or whether it would increase employment levels in Ulaanbaatar.</p>
+:ET

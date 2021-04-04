@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Mongolian Electoral District Analysis 202
+title:  Mongolian Electoral District Analysis 2020
 date:   2019-06-17 00:00:00 +0800
 image:  '/images/mongolian-electoral-analysis-2020/cover.png'
 tags:   [election, parliament]

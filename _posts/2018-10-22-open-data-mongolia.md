@@ -4,7 +4,7 @@ title:  Open Data — Mongolia
 date:   2018-10-22 00:00:00 +0800
 image:  '/images/open-data-mongolia/cover.jpeg'
 tags:   [open data]
-featured: true
+featured: 
 ---
 
 #### Where to find data on Mongolia

@@ -4,7 +4,7 @@ title:  Mongolia's $150,000 license plate
 date:   2021-02-15 00:00:00 +0800
 image:  '/images/mongolias-150000-license-plate/cover.png'
 tags:   [auction, lucky numbers]
-featured: true
+featured: 
 ---
 
 #### Would you pay this much for the country’s “best” license plate?

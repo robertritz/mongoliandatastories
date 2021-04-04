@@ -1,0 +1,38 @@
+I"]<h4 id="that-is-unless-mongolias-export-partners-diversify">That is, unless Mongolia’s export partners diversify</h4>
+
+<p>It’s a rather gloomy title, but it is appropriate. There has been much discussion about diversifying the Mongolian economy to avoid the boom and bust cycle that has become common (see <a href="https://medium.com/@turtogtokherdenebaatar/opportunity-to-diversify-the-mongolian-economy-3b7f178339b1">here</a>, <a href="https://globalriskinsights.com/2016/04/mongolia-needs-to-diversify-to-avoid-recession/">here</a>, and <a href="http://www.xinhuanet.com/english/2018-03/29/c_137074975.htm">here</a> to name a few). Less has been discussed regarding diversifying trading partners.</p>
+
+<p>For those familiar with the Mongolian economy, it is clear that China plays a big role in imports to the country. Yet I believe it is less known by the average Mongolian how closely exports are tied to China as well.</p>
+
+<p>With all of the efforts of diversification, is the economy safer if nearly all of Mongolia’s exports go to one trading partner? Now factor in Chinese government whims to close the border <a href="https://www.aljazeera.com/news/2016/12/china-blocks-mongolia-border-dalai-lama-visit-161210060313417.html">whenever it fancys</a>. This seems to be a recipe for economic uncertainty.</p>
+
+<p>To understand just how closely Mongolia’s exports are tied to China I gathered data from the <a href="http://www.1212.mn/">National Statistical Office</a> and dug in. These data show Mongolia’s export value from 2005–2017 and is broken down by country.</p>
+
+<h3 id="mapping-exports">Mapping Exports</h3>
+
+<p>First I wanted to visually see where Mongolia’s products and services are going around the world. I animated a global map, showing a new image for each year, and shaded the countries by the amount of exports going to that country. The darker the higher the value.</p>
+
+<p><img src="/images/mongolia-chained-china/exports-over-time.gif" alt="" /></p>
+
+<p>China remains dark throughout the period while other trading partners get significantly lighter. There is only one country that ends darker than it started, the United Kingdom. Interestingly enough back in 2005 the United States was number two, yet was still far away from the export value of China.</p>
+
+<p><img src="/images/mongolia-chained-china/exports-2005.png" alt="" /></p>
+
+<h3 id="charting-exports">Charting Exports</h3>
+
+<p>Let’s take a look at real numbers now. But I warn you, they aren’t any prettier.</p>
+
+<p><img src="/images/mongolia-chained-china/charting-exports.png" alt="" /></p>
+
+<p>Here you can see the massive proportion of exports going to China from Mongolia. Every other country is dwarfed.</p>
+
+<h3 id="total-exports">Total Exports</h3>
+
+<p>Of course it’s not all doom and gloom. Since 2005 Mongolia’s exports have increased tremendously, propelling the country’s economy to new heights. The total value has gone from just over 1 billion USD to over 6 billion USD today.</p>
+
+<p><img src="/images/mongolia-chained-china/exports-forecast.png" alt="" /></p>
+
+<p>Total value of Mongolian exports with a linear forecast. Error bars shown are based on a 95% confidence interval.</p>
+
+<p>Mongolian exports will continue to grow, and hopefully in a diversified way that includes more than natural resources and more than just China. Putting all your eggs in one basket is never a good idea.</p>
+:ET
