@@ -1,0 +1,64 @@
+/* Hero */
+.hero {
+  margin-bottom: 50px;
+  .row {
+    align-items: center;
+  }
+  @media only screen and (max-width: $tablet) {
+    margin-bottom: 20px;
+  }
+}
+
+/* Author */
+.author {
+  .author__avatar {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .author__name {
+    margin-bottom: 5px;
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 800;
+  }
+  
+  .author__job {
+    font-size: 63px;
+    line-height: 58px;
+    font-weight: 800;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .author__name {
+      font-size: 24px;
+    }
+    .author__job {
+      margin-bottom: 20px;
+      font-size: 38px;
+      line-height: 33px;
+    }
+  }
+  @media only screen and (max-width: $tablet) {
+    margin: 20px 0;
+  }
+}
+
+.single-author {
+  .author {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    .author__avatar {
+      margin: 0 auto 10px;
+    }
+    .social__list {
+      justify-content: center;
+    }
+  }
+}

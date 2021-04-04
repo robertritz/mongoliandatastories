@@ -1,0 +1,68 @@
+/* Tags Page */
+.archive-box {
+  position: relative;
+  transform: translate(0);
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(53, 53, 53, 0.7));
+  }
+}
+
+.archive-text {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8vw 20px;
+  min-height: 280px;
+}
+
+.archive-meta {
+  font-size: 21px;
+  font-weight: 700;
+  color: rgba($white, .8);
+}
+
+.archive-title {
+  margin: 0;
+  font-size: 63px;
+  line-height: 45px;
+  font-weight: 800;
+  color: $white;
+  @media only screen and (max-width: $mobile) {
+    font-size: 43px;
+    line-height: 38px;
+  }
+}
+
+.tag-slider {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  div {
+    height: 100%;
+  }
+
+  .tag-slider__item {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

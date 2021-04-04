@@ -1,0 +1,36 @@
+/* Buttons */
+.button {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-family: $heading-font-family;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  &--primary {
+    padding: 0px 1.8rem;
+    height: 50px;
+    line-height: 50px;
+    color: $white;
+    background-color: $dark;
+    &:hover {
+      color: $white;
+      background-color: darken($brand-color, 5%);
+    }
+  }
+
+  &--big {
+    display: block;
+    width: 100%;
+  }
+}
