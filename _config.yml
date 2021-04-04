@@ -10,7 +10,7 @@ url: "https://mongoliandatastories.com" # The base hostname & protocol for your 
 #-------------------------------
 # Author Settings
 author:
-  avatar: '/images/logo.png'
+  avatar: '/images/robert-headshot.jpg'
   name: Robert Ritz
   job: Telling Mongolia's story through data.
 

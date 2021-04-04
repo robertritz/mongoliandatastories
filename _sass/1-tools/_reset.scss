@@ -36,3 +36,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+/**
+ * Get's rid of extra styling for image captions. Added from github
+ * https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll
+ */
+ 
+img + em { }

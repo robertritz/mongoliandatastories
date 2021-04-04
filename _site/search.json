@@ -1,129 +1,84 @@
 [
   
     {
-      "title"    : "That which does not kill us makes us stronger",
+      "title"    : "Mongolia&#39;s $150,000 license plate",
       "category" : "",
-      "tags"     : "Travel and Rest",
-      "url"      : "/that-which-does-not-kill-us-makes-us-stronger",
-      "date"     : "Nov 13, 2018",
-      "image": "/images/20.jpg"
+      "tags"     : "auction and lucky numbers",
+      "url"      : "/Mongolias-150-000-License-Plate",
+      "date"     : "Feb 15, 2021",
+      "image": "/images/mongolias-150000-license-plate/cover.png"
     } ,
   
     {
-      "title"    : "Do what you can, with what you have, where you are",
+      "title"    : "Sqair Air Purifier Real World Test",
       "category" : "",
-      "tags"     : "Life, Travel, and River",
-      "url"      : "/do-what-you-can-with-what-you-have-where-you-are",
-      "date"     : "Nov 12, 2018",
-      "image": "/images/21.jpg"
+      "tags"     : "pollution",
+      "url"      : "/Sqair-real-world-test",
+      "date"     : "Sep 18, 2019",
+      "image": "/images/sqair-real-world-test/cover.jpeg"
     } ,
   
     {
-      "title"    : "If you cannot do great things, do small things in a great way",
+      "title"    : "Mongolian Electoral District Analysis 202",
       "category" : "",
-      "tags"     : "Life and Rest",
-      "url"      : "/If-you-cannot-do-great-things-do-small-things-in-a-great-way",
-      "date"     : "Nov 11, 2018",
-      "image": "/images/22.jpg"
+      "tags"     : "election and parliament",
+      "url"      : "/Mongolian-Electoral-District-Demographic-Analysis",
+      "date"     : "Jun 17, 2019",
+      "image": "/images/mongolian-electoral-analysis-2020/cover.png"
     } ,
   
     {
-      "title"    : "Strive not to be a success, but rather to be of value",
+      "title"    : "The Ethical Matrix of Dzud Forecasting",
       "category" : "",
-      "tags"     : "Travel and Dreams",
-      "url"      : "/Strive-not-to-be-a-success-but-rather-to-be-of-value",
-      "date"     : "Nov 10, 2018",
-      "image": "/images/23.jpg"
+      "tags"     : "dzud and forecasting",
+      "url"      : "/Ethical-matrix-dzud-forecasting",
+      "date"     : "Feb 13, 2019",
+      "image": "/images/ethical-matrix-dzud-forecasting/cover.jpeg"
     } ,
   
     {
-      "title"    : "A journey of a thousand leagues begins beneath one’s feet",
+      "title"    : "The Tsagaan Sar Debt Cycle",
       "category" : "",
-      "tags"     : "Travel and Life",
-      "url"      : "/A-journey-of-a-thousand-leagues-begins-beneath-one-s-feet",
-      "date"     : "Nov 9, 2018",
-      "image": "/images/24.jpg"
+      "tags"     : "Tsagaan Sar and debt",
+      "url"      : "/Tsagaan-Sar-debt-cycle",
+      "date"     : "Feb 8, 2019",
+      "image": "/images/tsagaan-sar-debt-cycle/cover.jpeg"
     } ,
   
     {
-      "title"    : "Life shrinks or expands in proportion to one’s courage",
+      "title"    : "Open Data — Mongolia",
       "category" : "",
-      "tags"     : "Travel and Desert",
-      "url"      : "/Life-shrinks-or-expands-in-proportion-to-one-s-courage",
-      "date"     : "Nov 8, 2018",
-      "image": "/images/25.jpg"
+      "tags"     : "open data",
+      "url"      : "/open-data-mongolia",
+      "date"     : "Oct 22, 2018",
+      "image": "/images/open-data-mongolia/cover.jpeg"
     } ,
   
     {
-      "title"    : "What you do speaks so loudly that I cannot hear what you say",
+      "title"    : "Mongolia’s Economic Future is Chained to China",
       "category" : "",
-      "tags"     : "Life, Travel, and River",
-      "url"      : "/What-you-do-speaks-so-loudly-that-I-cannot-hear-what-you-say",
-      "date"     : "Nov 7, 2018",
-      "image": "/images/30.jpg"
+      "tags"     : "trade and china",
+      "url"      : "/Mongolias-Economic-Future-Chained-China",
+      "date"     : "May 21, 2018",
+      "image": "/images/mongolia-chained-china/charting-exports.png"
     } ,
   
     {
-      "title"    : "Believe and act as if it were impossible to fail",
+      "title"    : "Mongolians are more in debt now than ever",
       "category" : "",
-      "tags"     : "Work and Life",
-      "url"      : "/Believe-and-act-as-if-it-were-impossible-to-fail",
-      "date"     : "Nov 6, 2018",
-      "image": "/images/31.jpg"
+      "tags"     : "debt and loans",
+      "url"      : "/Mongolian-more-in-debt-than-ever-before",
+      "date"     : "May 8, 2018",
+      "image": "/images/mongolians-more-debt/debt-cover.jpg"
     } ,
   
     {
-      "title"    : "You must be the change you wish to see in the world",
+      "title"    : "A first look at Mongolian crime data",
       "category" : "",
-      "tags"     : "Travel and Dreams",
-      "url"      : "/You-must-be-the-change-you-wish-to-see-in-the-world",
-      "date"     : "Nov 5, 2018",
-      "image": "/images/32.jpg"
-    } ,
-  
-    {
-      "title"    : "Everything has beauty, but not everyone can see",
-      "category" : "",
-      "tags"     : "Desert and Life",
-      "url"      : "/Everything-has-beauty-but-not-everyone-can-see",
-      "date"     : "Nov 4, 2018",
-      "image": "/images/33.jpg"
-    } ,
-  
-    {
-      "title"    : "The way I see it, every life is a pile of good things",
-      "category" : "",
-      "tags"     : "Travel and Rest",
-      "url"      : "/the-way-i-see-it-every-life-is-a-pile-of-good-things",
-      "date"     : "Oct 31, 2018",
-      "image": "/images/40.jpg"
-    } ,
-  
-    {
-      "title"    : "It is never too late to be what you might have been",
-      "category" : "",
-      "tags"     : "Dreams and Desert",
-      "url"      : "/It-is-never-too-late-to-be-what-you-might-have-been",
-      "date"     : "Oct 29, 2018",
-      "image": "/images/35.jpg"
-    } ,
-  
-    {
-      "title"    : "Remember that happiness is a way of travel, not a destination",
-      "category" : "",
-      "tags"     : "Travel and Desert",
-      "url"      : "/Remember-that-happiness-is-a-way-of-travel-not-a-destination",
-      "date"     : "Apr 24, 2018",
-      "image": "/images/37.jpg"
-    } ,
-  
-    {
-      "title"    : "The only true wisdom is knowing that you know nothing",
-      "category" : "",
-      "tags"     : "Desert and Work",
-      "url"      : "/The-only-true-wisdom-is-knowing-that-you-know-nothing",
-      "date"     : "Apr 24, 2018",
-      "image": "/images/39.jpg"
+      "tags"     : "crime, government, and map",
+      "url"      : "/A-First-Look-at-Mongolian-Crime-Data",
+      "date"     : "Nov 30, 2017",
+      "image": "/images/mongolian-crime-data/crimemap.png"
     } 
   
 ]
