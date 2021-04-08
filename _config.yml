@@ -32,6 +32,7 @@ slider: true # NOTE - By default, the slider is set to display featured posts. T
 contact:
   email: robertritz@outlook.com # Add your email for contant form
   description: Contact Mongolian Data Stories. # Add a description of your form
+  endpoint: https://formspree.io/f/mvodoway # Formspree endpoint
 
 # NOTE
 # Bonso comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
