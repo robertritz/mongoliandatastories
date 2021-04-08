@@ -39,12 +39,12 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: en-mongoliandatastories # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: G-E17DR95NKH # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
