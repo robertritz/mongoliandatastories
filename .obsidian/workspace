@@ -6,11 +6,10 @@
       {
         "id": "464ec207386093c1",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
+            "file": "_posts/draft/Unpublished Faceook's Political Ad Policy in Mongolia.md",
             "mode": "source"
           }
         }
@@ -53,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 507
   },
   "right": {
     "id": "d006e5675804829d",
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
+                "file": "_posts/draft/Unpublished Faceook's Political Ad Policy in Mongolia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -85,15 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_posts/draft/Unpublished Faceook's Political Ad Policy in Mongolia.md",
+    "_posts/Unpublished Faceook's Political Ad Policy in Mongolia.md",
+    "_posts/Untitled.md",
+    "_posts/Unpublished Mongolia's Death Rate dropped dramatically in 2020, what happened?.md",
+    "_posts/Unpublished Goats are Taking Over the Steppe.md",
+    "_posts/2021-02-15-Mongolias-150-000-License-Plate.md",
+    "README.md",
     "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
     "_posts/2018-05-08-Mongolian-more-in-debt-than-ever-before.md",
-    "_posts/2018-05-21-Mongolias-Economic-Future-Chained-China.md",
-    "_posts/2018-10-22-open-data-mongolia.md",
-    "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
-    "_posts/2019-02-13-Ethical-matrix-dzud-forecasting.md",
-    "_posts/2019-09-18-Sqair-real-world-test.md",
-    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
-    "_posts/2021-02-15-Mongolias-150-000-License-Plate.md"
+    "_posts/2018-05-21-Mongolias-Economic-Future-Chained-China.md"
   ]
 }

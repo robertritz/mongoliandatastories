@@ -1,0 +1,7 @@
+
+notebooks/config.py
+notebooks/draft
+*.pyc
+notebooks/.ipynb_checkpoints/config-checkpoint.py
+_posts/draft
+*checkpoint.ipynb
