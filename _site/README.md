@@ -1,24 +1,24 @@
  # Mongolian Data Stories Blog 
 
-Bonso is a minimal, modern, easily customizable, and image-focused theme for Jekyll. This theme was been created for photographers, developers, writers, or bloggers to provide your visitors with a quality user experience.
+This is the repository that holds all the posts, data, code, and notebooks for the Mongolian Data Stories blog. The site is built with Jekyll and uses Github Pages for hosting.
+
+You can find the repository for the Mongolian language version of MDS at https://github.com/robertritz/mn-mongoliandatastories.
 
 * * *
 
-### Demo
+### Blog
 
-Check the theme in action [Demo](https://bonso.netlify.app/)
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+You can find the blog at https://mongoliandatastories.com
 
 
 * * *
 
-### Documentation
+### Notebooks
 
-Before using the Bonso theme, please read the attached documentation.
+If you see a chart, table, or graphic on the blog I made it in a Jupyter notebook with Python. You can find all the code used to generate the charts and tables for the blog in the [notebooks](https://github.com/robertritz/mongoliandatastories/tree/main/notebooks) folder of this repository.
+
+
+* * *
+
+### License
+
