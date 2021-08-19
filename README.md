@@ -1,4 +1,4 @@
-# Bonso
+ # Mongolian Data Stories Blog 
 
 Bonso is a minimal, modern, easily customizable, and image-focused theme for Jekyll. This theme was been created for photographers, developers, writers, or bloggers to provide your visitors with a quality user experience.
 
