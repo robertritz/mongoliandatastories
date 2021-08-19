@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
+            "file": "drafts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "drafts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
-    "README.md",
-    "_posts/2018-10-22-open-data-mongolia.md",
-    "_posts/draft/Unpublished Mongolia_s Death Rate dropped dramatically in 2020, what happened_.md",
-    "_posts/draft/2021-05-17-April-2021-Facebook-Political-Ads-Report.md",
-    "_posts/draft/Unpublished Goats are Taking Over the Steppe.md",
     "_posts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
     "_posts/2021-02-15-Mongolias-150-000-License-Plate.md",
+    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
+    "_posts/2019-09-18-Sqair-real-world-test.md",
+    "_posts/2019-02-13-Ethical-matrix-dzud-forecasting.md",
+    "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+    "_posts/2018-10-22-open-data-mongolia.md",
+    "_posts/2018-05-21-Mongolias-Economic-Future-Chained-China.md",
     "_posts/2018-05-08-Mongolian-more-in-debt-than-ever-before.md",
-    "_posts/draft/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
-    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md"
+    "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md"
   ]
 }

@@ -14,10 +14,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Mongolians are more in debt now than ever</title>
+  <title>Does Facebook Ad Policy Work in Mongolia?</title>
   <meta name='description' content='Telling Mongolia's story through data.'>
 
-  <link rel="canonical" href="https://mongoliandatastories.com/Mongolian-more-in-debt-than-ever-before">
+  <link rel="canonical" href="https://mongoliandatastories.com/drafts/2021-05-16-Faceook_s%20Political%20Ad%20Policy%20in%20Mongolia">
   <link rel="alternate" type="application/rss+xml" title="Mongolian Data Stories" href="/feed.xml">
 
   <!-- Fonts -->
@@ -366,7 +366,7 @@
   <div class="row">
     <div class="col col-12">
       <div class="image-box">
-        <img class="post-image" src="/images/mongolians-more-debt/debt-cover.jpg" alt="Mongolians are more in debt now than ever">
+        <img class="post-image" src="/images/" alt="Does Facebook Ad Policy Work in Mongolia?">
       </div>
     </div>
   </div>
@@ -383,43 +383,74 @@
             <span>By</span>
             <a href="/about/" class="post__author-image" style="background-image: url(/images/robert-headshot.jpg)" aria-label="Robert Ritz's Picture"></a> <a href="/about/" class="post__author-link">Robert Ritz</a>
           </div>
-          <h1 class="post-title">Mongolians are more in debt now than ever</h1>
+          <h1 class="post-title">Does Facebook Ad Policy Work in Mongolia?</h1>
           <div class="post__meta">
             
             <div class="post-tags">
               
-              <a href="/tag/debt" class="post-tags__tag">debt</a>
+              <a href="/tag/Facebook" class="post-tags__tag">Facebook</a>
               
-              <a href="/tag/loans" class="post-tags__tag">loans</a>
+              <a href="/tag/politics" class="post-tags__tag">politics</a>
+              
+              <a href="/tag/advertising" class="post-tags__tag">advertising</a>
+              
+              <a href="/tag/election" class="post-tags__tag">election</a>
               
             </div>
             
             <span class="post__date">
-              <time datetime="2018-05-08T00:00:00+08:00">May 08, 2018</time>
+              <time datetime="2021-05-17T00:00:00+08:00">May 17, 2021</time>
             </span>
           </div>
         </div>
 
         <div class="post__content">
-          <h4 id="but-they-are-also-richer">But they are also richer.</h4>
+          <p>During last years Parliamentary election in Mongolia I was very interested to learn more about how parties and campaigns would use Facebook advertising to get their message out. It was <a href="https://montsame.mn/en/read/226189">reported</a> that social media advertising during the 2020 Parliamentary election would be closely monitored by the General Election Commission, the Communications Regulatory Commission, and even Facebook itself. Even more exciting, in January 2020, <a href="https://news.mn/en/790500/">Facebook said</a> they would set up a “war room” during the 2020 election to combat misinformation and tackle fake accounts.</p>
 
-<p>The economy is <a href="https://www.bloomberg.com/news/articles/2018-05-02/mongolia-s-swing-from-bust-to-boom-raises-question-can-it-last">picking up steam</a> in Mongolia. This is good news for the country’s businesses, who can hope the economic growth will translate to more money in peoples pockets. However, in a country that has experienced dramatic up and down swings of the economy, hope may not be in large supply.</p>
+<p>All of these signals told me that election advertising during the 2020 Parliamentary election would be closely monitored. Indeed, I heard several anecdotal reports that pages violating election regulations were taken down. However, to my knowledge, there has been no published statistics or data on posts or pages taken down during this period.</p>
 
-<p>As I always tell my students, if you have a question, dig into it and test your hypothesis. My hypothesis is that debt levels may be reaching a critical amount that the economy can no longer bear. This will result in a lack of free cash for regular citizens and a weakening of non-mining economic growth. But hey, don’t take my word for it. Let’s look at the data.</p>
+<p>So, as an inquisitive data scientist I went looking for data. I knew that Facebook launched their <a href="https://www.facebook.com/ads/library/">Ad Library</a> in May 2018 as a response to the “dark ads” of the 2016 election in the United States. The Ad Library, according to it’s home page:</p>
 
-<p>A huge amount of construction has taken place in recent years along with an increase in average salaries. Financing all of this building are commercial loans and also a government backed mortgage program offering the lowest rates in the country. This has led to an explosion of outstanding loans to finance the building of apartments and businesses.</p>
+<blockquote>
+  <p>“…provides advertising transparency by offering a comprehensive, searchable collection of all ads currently running from across Facebook apps and services, including Instagram.”</p>
+</blockquote>
 
-<p>Below I’ve charted outstanding loans and deposits from 2001–2016 (the most recent year available from the national statistical office). After the mining boom in the early 2010’s loans skyrocketed.</p>
+<p>The Ad Library allows you to see ads a Facebook page (or Instagram page) is running during a limtied time period. However, if the ads are about social issues, elections or politics, the ads are retained in the Ad Library forever. In addition, these political ads are available via Facebook’s Ad Library API, where the data can be downloaded and analyzed.</p>
 
-<p><img src="/images/mongolians-more-debt/debt-chart.png" alt="" /></p>
+<p>Obviously, this data source seemed like a perfect fit for what I wanted! After researching several candidates for Parliament I discovered a troubling fact. Only a few ads out of the over 600 candidates were properly marking their ads as political. To be clear, Mongolian election law does not require candidates to mark their ads in this way on Facebook.</p>
 
-<p>The amount of outstanding loans is nearly 12.5 trillion MNT (just over 5 billion USD). At the same time deposits have grown significantly, but not at the same pace as loans. Ulaanbaatar leads the country in outstanding loans with 78% of all outstanding loans. These numbers combined with estimates in 2017 that there are <a href="http://theubpost.mn/2017/02/19/free-up-prices-and-dismantle-monopolies/">35–40 thousand empty apartments</a> in Ulaanbaatar are quite concerning.</p>
+<p>In response, I made a Tweet calling out the disparity between the statements and reality of Facebooks statement.</p>
 
-<p>Is this debt trend national? Below I mapped the total of outstanding loans per capita in 2016 for each province (aimag) using Tableau. I excluded Ulaanbaatar as it highly imbalanced the map. As this is per capita we are balancing each provinces population to better compare them. For comparison Ulaanbaatar had a total outstanding loans per capita of 26.88 million MNT (nearly 11,000 USD).</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/Facebook?ref\_src=twsrc%5Etfw">@Facebook</a> says they are working with <a href="https://twitter.com/gecmongolia?ref\_src=twsrc%5Etfw">@gecmongolia</a> for this election. Hard to believe as <a href="https://twitter.com/ArdiinNam?ref\_src=twsrc%5Etfw">@ArdiinNam</a> are running ads on Facebook without flagging them as &quot;political&quot;. Result: researchers and journalists can&#39;t use the API to monitor campaigns, instead must use manual searches. /1 <a href="https://t.co/JyYQAlgjiZ">pic.twitter.com/JyYQAlgjiZ</a></p>&mdash; Robert Ritz (@RobertERitz) <a href="https://twitter.com/RobertERitz/status/1272523321343651840?ref\_src=twsrc%5Etfw">June 15, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p><img src="/images/mongolians-more-debt/debt-map.png" alt="" /></p>
+<p>Eventually I discovered the reason for the almost complete lack of ads being marked political. Facebook simply <a href="https://twitter.com/george\_chen/status/1272776100729372674?s=20">had not started</a> enforcing authorization for political and election ads in Mongolia!</p>
 
-<p>It seems pretty clear debt is consolidated primarily in Ulaanbaatar. This is both good and bad. Nearly half the population and most of the economic activity of the country is in Ulaanbaatar. However this also probably means the average UB’ier has more debt than the average person in the countryside. With <a href="https://medium.com/mongolian-data-stories/unemployment-in-mongolia-infographic-4595aab9bb85">youth unemployment over 20%</a>, debt in the nations capital may prove too much to bear.</p>
+<h2 id="political-ad-tracking-begins">Political Ad Tracking Begins</h2>
+
+<p>Recently I started looking into Facebook political ads again because of the upcoming Presidential election in June 2021. Imagine my surprise when I find that ads are now being tagged and tracked in large quantities! Facebook turned on authorization for ads about social issues, elections or politics in August 2020. Since then over 7,000 ads have been added to the library and over $130,000 has been spent on these ads (as of May 17, 2021).</p>
+
+<ul>
+  <li>visualization of number of ads since August 2020.</li>
+</ul>
+
+<p>Since August 2020</p>
+
+<h2 id="testing-facebooks-authorization-process">Testing Facebook’s Authorization Process</h2>
+
+<p>Ad text:</p>
+<blockquote>
+  <p>Монгол улс гуравдагч хөршийн бодлогоо тогтвортой барьж чадах эсэхийг энэ жилийн Ерөнхийлөгчийн сонгууль хариулж чадна. Гадаадын хөрөнгө оруулалтыг дэмжих үү? Гадны хөрөнгө оруулагчдыг гаргах уу? Хамтын түншлэлээ өргөжүүлж чадах уу гэдэг гагцхүү таны сонголтоос хамаарна! Өмнөх Ерөнхийлөгчид, Засгийн Газруудын хүчин чармайлтаар АНУ-ын Конгрессд Монголд зориулсан “Гуравдагч Хөршийн Худалдааны Баримт Бичиг” батлагдсан байна. Гадаад худалдааг улстөржүүлэн гацаах уу, эсвэл энэ боломжийг ашиглаж дараагийн түвшинд гарах уу гэдгийг сонгогч таны мэргэн ухаан шийдэг.</p>
+</blockquote>
+
+<p>Translations:
+This year’s presidential election will determine whether Mongolia can sustain its third neighbor policy. Will we support foreign investment? Or will foreign investors be seen out? Whether you can expand your partnership depends only on your choice! Through the efforts of previous presidents and governments, the “Third Neighbor Trade Document” for Mongolia was approved by the US Congress. It is up to the electorate to decide whether to politicize foreign trade or take this opportunity to the next level.</p>
+
+<h2 id="whats-next">What’s Next?</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/george\_chen?ref\_src=twsrc%5Etfw">@george\_chen</a> according to TheGuardian Facebook detected politically manipulative behaviour in <a href="https://twitter.com/hashtag/Mongolia?src=hash&amp;ref\_src=twsrc%5Etfw">#Mongolia</a> during last elections and yet this network was never investigated. Care to comment? <a href="https://t.co/DREIaxzGsH">https://t.co/DREIaxzGsH</a> <a href="https://t.co/w4jUW5yQeS">pic.twitter.com/w4jUW5yQeS</a></p>&mdash; Zaya C Bulag (@Zaya\_CB) <a href="https://twitter.com/Zaya\_CB/status/1389208684044165123?ref\_src=twsrc%5Etfw">May 3, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
         </div>
         
@@ -465,24 +496,24 @@
         <div class="post__share">
           <ul class="share__list list-reset">
             <li class="share__item">
-              <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliandatastories.com/Mongolian-more-in-debt-than-ever-before"
+              <a class="share__link share__facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://mongoliandatastories.com/drafts/2021-05-16-Faceook_s%20Political%20Ad%20Policy%20in%20Mongolia"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                 title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
             </li>
 
             <li class="share__item">
-              <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Mongolians%20are%20more%20in%20debt%20now%20than%20ever&url=https://mongoliandatastories.com/Mongolian-more-in-debt-than-ever-before"
+              <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Does%20Facebook%20Ad%20Policy%20Work%20in%20Mongolia?&url=https://mongoliandatastories.com/drafts/2021-05-16-Faceook_s%20Political%20Ad%20Policy%20in%20Mongolia"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                 title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
             </li>
 
             <li class="share__item">
-              <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://mongoliandatastories.com/Mongolian-more-in-debt-than-ever-before&title=Mongolians%20are%20more%20in%20debt%20now%20than%20ever&summary=&source=Mongolian%20Data%20Stories"
+              <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://mongoliandatastories.com/drafts/2021-05-16-Faceook_s%20Political%20Ad%20Policy%20in%20Mongolia&title=Does%20Facebook%20Ad%20Policy%20Work%20in%20Mongolia?&summary=&source=Mongolian%20Data%20Stories"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
             </li>
 
             <li class="share__item">
-              <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url=https://mongoliandatastories.com/Mongolian-more-in-debt-than-ever-before&amp;media=https://mongoliandatastories.com/images/mongolians-more-debt/debt-cover.jpg&amp;description=Mongolians%20are%20more%20in%20debt%20now%20than%20ever"
+              <a class="share__link share__pinterest" href="http://pinterest.com/pin/create/button/?url=https://mongoliandatastories.com/drafts/2021-05-16-Faceook_s%20Political%20Ad%20Policy%20in%20Mongolia&amp;media=https://mongoliandatastories.com/images/&amp;description=Does%20Facebook%20Ad%20Policy%20Work%20in%20Mongolia?"
               onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
               rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
             </li>
@@ -528,29 +559,15 @@
       
 
       
-    
-
-      
-      
-
-      
-
-      
-    
-
-      
-      
-
-      
-
-      
 
         <div class="article col col-4 col-t-12 grid__post animate">
           <div class="article__inner">
             
+            <span class="featured-post"><i class="ion ion-ios-star-outline"></i></span>
             
-            <a class="article__image" href="/Tsagaan-Sar-debt-cycle">
-              <img src="/images/tsagaan-sar-debt-cycle/cover.jpeg" alt="The Tsagaan Sar Debt Cycle">
+            
+            <a class="article__image" href="/Mongolian-Electoral-District-Demographic-Analysis">
+              <img src="/images/mongolian-electoral-analysis-2020/cover.png" alt="Mongolian Electoral District Analysis 2020">
             </a>
             
             <div class="article__content">
@@ -561,22 +578,22 @@
                   class="article__author-link">Robert Ritz</a>
               </div>
               <h2 class="article__title">
-                <a href="/Tsagaan-Sar-debt-cycle">The Tsagaan Sar Debt Cycle</a>
+                <a href="/Mongolian-Electoral-District-Demographic-Analysis">Mongolian Electoral District Analysis 2020</a>
               </h2>
               <div class="article__meta">
                 <div class="article-tags">
                   
                   <div class="article-tags__box">
                     
-                    <a href="/tag/Tsagaan Sar" class="article__tag">Tsagaan Sar</a>
+                    <a href="/tag/election" class="article__tag">election</a>
                     
-                    <a href="/tag/debt" class="article__tag">debt</a>
+                    <a href="/tag/parliament" class="article__tag">parliament</a>
                     
                   </div>
                   
                 </div>
                 <span class="article__date"><time
-                    datetime="2019-02-08T00:00:00+08:00">Feb 8, 2019</time></span>
+                    datetime="2019-06-17T00:00:00+08:00">Jun 17, 2019</time></span>
               </div>
             </div>
           </div>
@@ -584,6 +601,22 @@
 
         
         
+      
+    
+
+      
+      
+
+      
+
+      
+    
+
+      
+      
+
+      
+
       
     
 
