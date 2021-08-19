@@ -15,8 +15,7 @@ author:
   job: Telling Mongolia's story through data.
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com/mongoliandatastories"}
-- {icon: "ion-logo-facebook", link: "https://www.facebook.com/mongoliandatastories"}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/MglDataStories"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 # Other icons can be found at https://ionicons.com/v4/
