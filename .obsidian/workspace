@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
-            "mode": "preview"
+            "file": "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
+                "file": "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
     "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
     "images/meat_prices/animal_losses.png",
     "images/meat_prices/forecast.png",
@@ -95,8 +97,6 @@
     "images/meat_prices/beed.png",
     "_posts/Untitled.md",
     "_posts/2020-12-18-Australias-loss-Mongolias-gain-coal.md",
-    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
-    "README.md",
-    "_pages/about.md"
+    "README.md"
   ]
 }

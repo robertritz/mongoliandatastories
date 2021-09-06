@@ -4,7 +4,7 @@ title:  The Tsagaan Sar Debt Cycle
 date:   2019-02-08 00:00:00 +0800
 image:  '/images/tsagaan-sar-debt-cycle/cover.jpeg'
 tags:   [Tsagaan Sar, debt]
-featured: 
+featured: true
 ---
 
 The entire country mobilizes weeks ahead of time to prepare. The city government, worried about traffic, only allows cars to drive during alternate days on the weekend. The bakeries are so consumed with making _ul boov_, a traditional pastry, that bread starts to disappear from store shelves the week before the holiday.
