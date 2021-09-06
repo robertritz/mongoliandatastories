@@ -12,3 +12,12 @@ Originally this blog was hosted on Medium, but in 2021 I felt it was time to giv
 Transparency and reproducibility are key values for this blog. As such, you can find all of the code, notebooks, and data for all the posts on the site on the Mongolian Data Stories [Github Repository](https://github.com/robertritz/mongoliandatastories/tree/main/notebooks). In fact, this entire site is hosted on [Github](https://github.com/robertritz/mongoliandatastories) using Jekyll and Github Pages. Code found in notebooks is covered under the GPL v3 license. All posts are copyright Robert Ritz from 2018 onwards.
 
 If you would like to contact Robert please use the contact form above.
+
+
+
+
+
+
+
+
+----

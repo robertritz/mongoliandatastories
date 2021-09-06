@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+            "file": "_pages/about.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
+                "file": "_pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_pages/about.md",
     "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
     "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
     "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
@@ -96,7 +97,6 @@
     "_posts/2019-09-18-Sqair-real-world-test.md",
     "images/meat_prices/beed.png",
     "_posts/Untitled.md",
-    "_posts/2020-12-18-Australias-loss-Mongolias-gain-coal.md",
-    "README.md"
+    "_posts/2020-12-18-Australias-loss-Mongolias-gain-coal.md"
   ]
 }
