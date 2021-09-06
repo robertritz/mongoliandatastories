@@ -49,7 +49,7 @@ I used the following process to run the experiment:
 
 The results were quite amazing! It’s one thing to know that your air purifier is keeping your air clean, it’s another to see it working in real-time. Let’s take a look at the results:
 
-![](h/images/sqair-real-world-test/chart.jpeg)
+![](/images/sqair-real-world-test/chart.png)
 
 Before running the test I was quite concerned that the very very quite speed 1 wouldn’t circulate the air enough to clean the room’s air. It turns out that even on fan speed 1 the air was being cleaned at a very steady rate.
 

@@ -37,6 +37,15 @@
     } ,
   
     {
+      "title"    : "Mongolian Meat Price Time Series Forecast",
+      "category" : "",
+      "tags"     : "meat, prices, and forecast",
+      "url"      : "/Mongolian-meat-price-time-series-forecast",
+      "date"     : "May 20, 2019",
+      "image": "/images/meat_prices/forecast.png"
+    } ,
+  
+    {
       "title"    : "The Ethical Matrix of Dzud Forecasting",
       "category" : "",
       "tags"     : "dzud and forecasting",
