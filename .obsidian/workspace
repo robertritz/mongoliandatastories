@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_pages/about.md",
+            "file": "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
     "_pages/about.md",
     "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
-    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md",
     "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
     "images/meat_prices/animal_losses.png",
     "images/meat_prices/forecast.png",

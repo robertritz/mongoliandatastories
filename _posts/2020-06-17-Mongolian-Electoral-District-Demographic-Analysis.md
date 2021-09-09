@@ -11,7 +11,7 @@ featured: true
 
 The current election saw a switch back to the block voting system used in 1992 and 2008. This system has both [positives and negatives](http://blogs.ubc.ca/mongolia/2019/plurality-at-large-voting-revisited-for-2020/), and this system has much larger election districts than the previous single-member districts of the 2016 election. This allows us to more easily analyze the districts with the available data.
 
-To put all of the data together and make it user friendly, I built [Songolt](https://songolt.org), an interactive data explorer that allows the reader to see key indicators of election districts. The indicators covered in the app include:
+To put all of the data together and make it user friendly, I built an interactive data explorer that allows the reader to see key indicators of election districts. The indicators covered in the app include:
 
 -   **Population indicators**: population, household size, herder percent, age group breakdown
 -   **Economic indicators (self-reported)**: salary, household loans, employment, education levels
@@ -19,7 +19,7 @@ To put all of the data together and make it user friendly, I built [Songolt](htt
 
 The data was collected from [1212.mn](http://1212.mn) and also the [Household Socioeconomic Survey of 2016](http://web.nso.mn/nada/index.php/catalog/115), which is the latest survey that contains precise geographic labeling. Both data sources are maintained by the National Statistics Office of Mongolia.
 
-Several themes developed through my research into this data. These themes are perhaps not surprising for many readers familiar with Mongolia, but it is never a bad thing to back up observations with data. I encourage you, the reader, to explore the app yourself ([link](https://songolt.org)), but below I give an overview of the themes for your convenience.
+Several themes developed through my research into this data. These themes are perhaps not surprising for many readers familiar with Mongolia, but it is never a bad thing to back up observations with data. I encourage you, the reader, to explore the app yourself ([link](https://mongolia-2020-election.anvil.app)), but below I give an overview of the themes for your convenience.
 
 #### Ulaanbaatar vs Countryside
 
