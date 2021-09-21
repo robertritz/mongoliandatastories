@@ -68,7 +68,7 @@ It seems fairly clear from the analysis above that the current shortage of fuel 
 
 It is important to remember that in December 2020 Mongolia had a [large opportunity](https://mongoliandatastories.com/Australias-loss-Mongolias-gain-coal) to significantly increase coal exports to China. China recently banned the import of coal from Australia, giving Mongolia an obvious advantage. Due to COVID-19 outbreaks and customs issues, Mongolia seems to have squandered that opportunity. 
 
-You can find the code, data, and Excel spreadsheet for the projections above on the site Github page [here](). 
+You can find the code, data, and Excel spreadsheet for the projections above on the site Github page [here](https://github.com/robertritz/mongoliandatastories/tree/main/notebooks/Fuel-Shortage). 
 
 
 ***
