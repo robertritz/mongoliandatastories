@@ -53,3 +53,7 @@ It is important to note that much of the labels are in Mongolian, but Google Tra
 Have suggestions or comments? Feel free to drop a comment below.
 
 
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 
+

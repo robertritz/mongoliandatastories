@@ -35,3 +35,7 @@ Anyone bidding on a license plate number is required to put in a deposit for the
 It’s unclear how much of this auction was real interest or social media hype, as this particular license plate went somewhat viral on various Mongolian language Facebook groups. To put things in perspective, the average yearly salary in Ulaanbaatar, the capital, is about $5,300 USD.
 
 What do you think? Is a $150,000 license plate worth it?
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

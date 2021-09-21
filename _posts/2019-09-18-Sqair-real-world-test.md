@@ -62,3 +62,7 @@ Overall the results were what I expected for speeds 2, and 3, but better than ex
 I was quite impressed with the simplicity, effectiveness, and cost of the Sqair. It just works and it does so while looking good and not breaking the bank. I can easily recommend these air purifiers to anyone looking for a simple and cost-effective solution.
 
 If you are interested in buying a Sqair or learning more about Smart Air check out their website [here](https://smartairfilters.com/mn/en/).
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

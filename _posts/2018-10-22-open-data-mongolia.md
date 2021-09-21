@@ -36,3 +36,7 @@ These are data sources that contain many different categories of data.
 Above are the datasets that I am aware of. I’m sure there are more, and this highlights the need for a central data market for open data (or paid data). As Mongolia develops the need for high quality data, the demand for open data will skyrocket. I’ve considered doing this myself for some time, but the amount of work seems prohibitive for me alone.
 
 Happy data hunting!
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

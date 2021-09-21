@@ -44,3 +44,7 @@ Of course it’s not all doom and gloom. Since 2005 Mongolia’s exports have in
 Total value of Mongolian exports with a linear forecast. Error bars shown are based on a 95% confidence interval.
 
 Mongolian exports will continue to grow, and hopefully in a diversified way that includes more than natural resources and more than just China. Putting all your eggs in one basket is never a good idea.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

@@ -109,3 +109,7 @@ Resulting index values from MDVI model
 By changing the problem to a classification one we can allow the user of the model to make more intuitive decisions from the output of the model. Instead of numeric values, the output of the model could be “low”, “medium”, and “high”. This may in itself be too simple, but if the classes are based on actual results from real data, then they will have a higher interpretive ability in the real world.
 
 It is an important step for any machine learning or algorithmic project to take time to understand how it’s results can impact stakeholders and the system as a whole. The authors state that this model was not designed as a dzud forecast. However, once they release it in the real world NGO’s and governments can interpret the results how they wish. As such, there is a very real responsibility to understand how these values can be interpreted.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

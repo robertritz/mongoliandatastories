@@ -60,3 +60,7 @@ Pension loans have an obvious upward trend in Q1, with Q2 and Q3 being significa
 Well, we certainly see a large increase in pension loans in Q1, which is when you would expect Tsagaan Sar expenditures, and therefore the need for cash. This certainly seems to fit with the narrative that the elderly are the most impacted, and are taking out loans specifically for the holiday.
 
 Perhaps if you visit a family next year for Tsagaan Sar you may consider giving a bit more money to help offset these costs.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

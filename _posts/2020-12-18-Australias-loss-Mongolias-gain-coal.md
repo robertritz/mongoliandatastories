@@ -28,3 +28,7 @@ In 2019 Mongolia’s share of coking coal exports hovered around 50% of China’
 Challenges remain for Mongolia. Currently coal is still trucked to China, and the under construction Tavan-Tolgoi Gashuunsukhait railroad is scheduled to be [completed in 2022](https://montsame.mn/en/read/231951). This railroad will improve margins by reducing transportation costs and speed customs clearance, which will result in higher revenues and increase export ability. Until then, the main bottleneck is still customs clearance with China.
 
 The recently opened “green channel”, which optimizes clearance of cross-border freight and related personnel, has been said to help. Yet due to the recent outbreak of COVID-19 in Mongolia, China insisted truck drivers entering the country be tested before being allowed to cross the border. Currently there is a big opportunity in front of Mongolia, and we will see early in 2021 if it can take advantage of it.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

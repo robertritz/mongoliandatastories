@@ -26,3 +26,7 @@ Is this debt trend national? Below I mapped the total of outstanding loans per c
 ![](/images/mongolians-more-debt/debt-map.png)
 
 It seems pretty clear debt is consolidated primarily in Ulaanbaatar. This is both good and bad. Nearly half the population and most of the economic activity of the country is in Ulaanbaatar. However this also probably means the average UB’ier has more debt than the average person in the countryside. With [youth unemployment over 20%](https://medium.com/mongolian-data-stories/unemployment-in-mongolia-infographic-4595aab9bb85), debt in the nations capital may prove too much to bear.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

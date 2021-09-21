@@ -127,3 +127,7 @@ Meat frozen more than a week is very undesirable on the market in Mongolia, and 
 Mongolia’s meat prices are a function it’s nomadic supply. Regulating meat prices would only hurt the nearly 30% of the country that is engaged in herding work. These herders also don’t have a large household income compared to Ulaanbaatar. Rising meat prices means more money in their pocket.
 
 There is one question that hasn’t been discussed much. Who is hurt by rising meat prices? Low-income households have government reserve meat as an option. Average and upper-income households (assuming consistent consumption) spend a smaller portion of their income on meat compared to 2010. Let’s not forget that more meat exports contribute to the stability of the Tugrik and help diversify Mongolia’s economy so it isn’t so reliant on mining. Do you want Mongolia to be called Minegolia or Meatgolia?
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 

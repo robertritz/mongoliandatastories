@@ -68,3 +68,7 @@ The unique layout of the city districts ensures that at least 20% of the populat
 Regardless of the outcome of the election, it is clear that the needs of citizens in election districts are not uniform, and even the common trope of UB vs the rest doesn’t hold up completely. Even though Mongolia a small country with a heavy focus on mining, it isn’t clear that the party platforms address the inequalities mentioned above.
 
 While the economics platforms of the DP, MPP, and Right Person Electorate all [focus on heavy industry](http://blogs.ubc.ca/mongolia/2020/guest-post-economic-policy-party-platforms/), it isn’t clear how heavy industry would help rural areas outside of the main mining areas lacking in high paying jobs, or whether it would increase employment levels in Ulaanbaatar.
+
+***
+#### MDS Newsletter
+Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, [click here to sign up](https://www.getrevue.co/profile/mongoliandatastories). 
