@@ -11,7 +11,7 @@ Just yesterday I learned that there has been a gasoline "shortage" for a few wee
 
 On September 14, 2021,  the Mineral Resources and Petroleum Authority of Mongolia  made a [statement](https://montsame.mn/mn/read/275097) via the state news agency Montsame unequivocaly stating that there is no shortage of gasoline. This is heavily contrasted by reports on social media of limitations on purchases or outages at some stations. 
 
-{% twitter https://twitter.com/ganaasel/status/1440021463935840257?s=21 %}
+<blockquote class="twitter-tweet"><p lang="ru" dir="ltr">Хил гааль дээр хэдэн сараар гацсан бараа таваараа татаж чадахгүй, хэдэн колониуд нь бензиний нөөцөө барсан, ковидоор өвдсөн хүмүүст нь эмнэлэг олдохгүй, дарга эрх мэдэлтнүүд нь эзгүй.... бид дижитал үндэстэн <a href="https://t.co/2xxAd3ha80">pic.twitter.com/2xxAd3ha80</a></p>&mdash; Seku (@ganaasel) <a href="https://twitter.com/ganaasel/status/1440021463935840257?ref_src=twsrc%5Etfw">September 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 So what is the actual situation currently in Mongolia? As usual, I like to go to the actual data to see what the reality is. 
 
