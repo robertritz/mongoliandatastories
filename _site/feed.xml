@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mongoliandatastories.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mongoliandatastories.com/" rel="alternate" type="text/html" /><updated>2021-09-22T00:35:20+08:00</updated><id>https://mongoliandatastories.com/feed.xml</id><title type="html">Mongolian Data Stories</title><subtitle>Telling Mongolia's story through data.</subtitle><author><name>Robert Ritz</name></author><entry><title type="html">Mongolia is running on fumes</title><link href="https://mongoliandatastories.com/Mongolias-fuel-shortage" rel="alternate" type="text/html" title="Mongolia is running on fumes" /><published>2021-09-21T00:00:00+08:00</published><updated>2021-09-21T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Mongolias-fuel-shortage</id><content type="html" xml:base="https://mongoliandatastories.com/Mongolias-fuel-shortage">&lt;p&gt;Just yesterday I learned that there has been a gasoline “shortage” for a few weeks in Mongolia. I put shortage in quotation marks because it seems the government and average citizens did not immediately agree on the reality of the situation.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mongoliandatastories.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mongoliandatastories.com/" rel="alternate" type="text/html" /><updated>2021-10-08T12:23:05+08:00</updated><id>https://mongoliandatastories.com/feed.xml</id><title type="html">Mongolian Data Stories</title><subtitle>Telling Mongolia's story through data.</subtitle><author><name>Robert Ritz</name></author><entry><title type="html">The rent is too darn high. Right?</title><link href="https://mongoliandatastories.com/Apartment-Price-Income-Ratio" rel="alternate" type="text/html" title="The rent is too darn high. Right?" /><published>2021-10-07T00:00:00+08:00</published><updated>2021-10-07T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Apartment-Price-Income-Ratio</id><content type="html" xml:base="https://mongoliandatastories.com/Apartment-Price-Income-Ratio">&lt;p&gt;It’s hard to think of something more at the core of society than the family dwelling. It’s where you hang your hat, put your family possessions, and spend time with the ones you are closest to. For many families in Ulaanbaatar, this means an apartment in a multi-level building.&lt;/p&gt;
+
+&lt;p&gt;As children grow up, get married, and have children of their own (but not always in that order), families often scrape together enough money to purchase an apartment for the budding young family to start their lives together. It sounds quite idylic, something akin to a “Mongolian Dream”, rivaling the American one.&lt;/p&gt;
+
+&lt;p&gt;It’s easy to argue that this Mongolian Dream is a false one, propped up by a highly profitable construction sector, but that’s not what I’m here to do. I’m here to answer a Tweet. That’s right, a Tweet. Perhaps you get motivated by lofty ideals or a sense of justice. I tend to pay attention to Twitter too much.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/RobertERitz?ref_src=twsrc%5Etfw&quot;&gt;@RobertERitz&lt;/a&gt; do you want to take a crack at this? Median income is with NSO, average flat price index is with &lt;a href=&quot;https://twitter.com/TenkhlegZuuch?ref_src=twsrc%5Etfw&quot;&gt;@TenkhlegZuuch&lt;/a&gt; and MIK group company&lt;/p&gt;&amp;mdash; Эрдэнийн ЛХАГВА (@Lkhagva) &lt;a href=&quot;https://twitter.com/Lkhagva/status/1441303059829649415?ref_src=twsrc%5Etfw&quot;&gt;September 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Following the Evergrande debt crisis, Bloomberg published an &lt;a href=&quot;https://www.bloomberg.com/news/features/2021-09-22/china-s-evergrande-debt-crisis-is-stress-test-no-one-wanted&quot;&gt;article&lt;/a&gt; showing the price to income ratio for various Chinese cities compared to well known cities around the world. I was asked to take on this chart and see how Ulaanbaatar stacks up with the rest of the world.&lt;/p&gt;
+
+&lt;p&gt;First let’s define how the price to income ratio was created. The data for this chart came from &lt;a href=&quot;https://www.numbeo.com/property-investment/rankings.jsp?title=2021-mid&amp;amp;displayColumn=0&quot;&gt;Numbeo&lt;/a&gt;, a living costs data aggregator. Numbeo uses a simple formula consisting of the ratio of average price per square meter and average salary. They assume an apartment size of 90 square meters and they take 1.5 times the average annual net salary as a measure of net disposable family income. This 1.5 number assumes an average of 2 earners in a family with 50% of the women participating in the workforce.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/pricetoincomeratio.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These assumptions might not apply well to Mongolia, but we can address these later. By having a consistent methodology we can compare all of these countries on housing affordability. Conveniently, Numbeo actually does calculate the price to income ratio for Ulaanbaatar. All put together, here is the chart from mid-2021.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/homeprice_income_ratio_numbeo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Being towards the bottom of the chart, Ulaanbaatar does not look too bad next to the ultra expensive cities in China. But look at the two cities Ulaanbaatar is more expensive than in this list. New York and San Francisco!&lt;/p&gt;
+
+&lt;h2 id=&quot;siri-recalculate-that-for-me&quot;&gt;Siri, recalculate that for me&lt;/h2&gt;
+
+&lt;p&gt;Let’s take a step back. How sure are we that these numbers are accurate? Using local and reliable data sources, I wanted to calculate the price to income ratio to verify that the result from Numbeo is accurate.&lt;/p&gt;
+
+&lt;p&gt;Digging around for data, there are a few issues with the price to income ratio as calculated by Numbeo. First, it is not clear whether Numbeo is using average or median salary in its calculation. In Mongolia the median salary is substantially less than the average salary.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/salary_median_wages.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is due to a small number of high earners skewing the average higher while the median (or middle) salary is lower. While average salary data are available for both Ulaanbaatar and the national level, data for median salary are only available at the national level from the National Statistics Office of Mongolia.&lt;/p&gt;
+
+&lt;p&gt;It is also important to note that generally when a median is much smaller than an average, the mode (the most common observation) is generally even smaller than the median. Given these facts we probably should not consider the statistically average Mongolian to actually be very average at all.&lt;/p&gt;
+
+&lt;p&gt;The second issue is related to the price per square meter of housing. In countries like the United States the average price of housing would include apartments for purchase, smaller multi-family dwellings, and single family units. In Ulaanbaatar, when the price of housing is discussed it almost always refers to the price of apartments, not single family units. Yet 50% or more of the population of Ulaanbaatar does not live in apartments. So any ratio we make with the available data would be limited in scope to apartments and not the full spectrum of housing available in Ulaanbaatar.&lt;/p&gt;
+
+&lt;p&gt;With these issues in mind we can calculate a price to income ratio using available data. I used the same formula as Numbeo to keep things consistent.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Average Ulaanbaatar salary for Q2 2021 via &lt;a href=&quot;http://www.1212.mn/tables.aspx?tbl_id=dt_nso_0400_021v1&amp;amp;soum_select_all=0&amp;amp;soumsingleselect=_511_0&amp;amp;gender_select_all=0&amp;amp;gendersingleselect=_1&amp;amp;yearq_select_all=1&amp;amp;yearqsingleselect=&amp;amp;yeary_select_all=0&amp;amp;yearysingleselect=&amp;amp;viewtype=linechart&quot;&gt;1212.mn&lt;/a&gt;: ₮1,433,100&lt;/li&gt;
+  &lt;li&gt;Average price per square meter of apartments for Q2 2021 in Ulaanbaatar via Doljoo from Tenkhleg Zuuch on &lt;a href=&quot;https://twitter.com/Shoot91/status/1441313879271772163?s=20&quot;&gt;Twitter&lt;/a&gt;: ₮2,647,076&lt;/li&gt;
+  &lt;li&gt;10% Income Tax + 13.5% Social Insurance = Tax rate of 23.5%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Putting it all together we can take the average price per square meter multiplied by 90 square meters to get the average price of an apartment. Then we take the monthly net salary (average salary minus taxes) and multiply it by 12 months. Then multiply by 1.5 to get the estimated family income. All together:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/price_income_ratio_average_90.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The result? 12.07. This is a bit above the Numbeo ratio, but not by much. We should consider their number reasonably accurate given the issues we outlined above. Put simply, the “average” Mongolian family, which isn’t actually very average, will pay more for an apartment in relation to income than an average family in New York or San Francisco.&lt;/p&gt;
+
+&lt;h2 id=&quot;90-square-meters-you-rich-bro&quot;&gt;90 Square Meters? You rich bro?&lt;/h2&gt;
+&lt;p&gt;If you keep up with things in Mongolia, you will know there is also an issue with using the assumed 90 square meters for an apartment. First, the government mortgage program allows a maximum size of 80 square meters. Second, a 90 square meter apartment is considered to be on the larger side for many in Ulaanbaatar.&lt;/p&gt;
+
+&lt;p&gt;To address these issues I decided to take another pass at the price to income ratio using more realistic numbers for Ulaanbaatar. Here are the data assumptions I used.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Median salary, national level, Q2 2021, via &lt;a href=&quot;http://www.1212.mn/tables.aspx?tbl_id=DT_NSO_0400_069V2&amp;amp;SALARY_INDEX_select_all=0&amp;amp;SALARY_INDEXSingleSelect=_1&amp;amp;YearQ_select_all=1&amp;amp;YearQSingleSelect=&amp;amp;YearY_select_all=0&amp;amp;YearYSingleSelect=&amp;amp;viewtype=linechart&quot;&gt;1212.mn&lt;/a&gt;: ₮993,600&lt;/li&gt;
+  &lt;li&gt;The same average price per square meter for apartments, Q2 2021: ₮2,647,076&lt;/li&gt;
+  &lt;li&gt;10% Income Tax + 13.5% Social Insurance = Tax rate of 23.5%&lt;/li&gt;
+  &lt;li&gt;Average apartment size: 62 square meters
+    &lt;ul&gt;
+      &lt;li&gt;Tenkhleg Zuuch currently &lt;a href=&quot;https://twitter.com/Shoot91/status/1441320770391535620?s=20&quot;&gt;considers&lt;/a&gt; this the median apartment size in Ulaanbaatar.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/price_income_ratio_median_62.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The result? 11.99. Nearly identical to the ratio calculated above with average salary and 90 square meters. We can’t directly make a comparison now to New York or San Francisco like we did before. What we can do is draw a general conclusion about apartment affordability for a middle income family for a median sized apartment.&lt;/p&gt;
+
+&lt;p&gt;Note: You might think we could simply take the ratio from New York and multiply it by 1.3 (because 62 square meters is about 30% less than 90 square meters). Without knowing whether Numbeo used median or average salary in all circumstances it’s hard to know if we can make a generalized estimate like that.&lt;/p&gt;
+
+&lt;p&gt;But what comes next might be more useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;zoom-in-enhance&quot;&gt;Zoom in, enhance!&lt;/h2&gt;
+
+&lt;p&gt;After doing the above calculations I felt that I still had not gotten the full context of the situation. I realized what we needed was a look at the trend of the price to income ratio. In other words, have apartments gotten cheaper or more expensive relative to wages over the past several years?&lt;/p&gt;
+
+&lt;p&gt;Luckily I had apartment price data and wage data from 2014-2021. Here are the data assumptions I used to gereate the chart:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yearly net salary = Average salary (national level) x (1 - tax rate) x 12&lt;/li&gt;
+  &lt;li&gt;Average apartment price = Average price per square meter in Ulaanbaatar x 62 square meters&lt;/li&gt;
+  &lt;li&gt;Price to income ratio = Average apartment price / Yearly net salary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/apartment-price-income-ratio/price_income_ratio.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was fairly shocked by the result. I always heard that families are being priced out of apartments, but this chart tells a different story. In the past 10 years apartments have become more affordable to both average and middle income families. Since around 2019 the trend has leveled off, with salaries and apartment prices rising at a similar rate.&lt;/p&gt;
+
+&lt;p&gt;This seems to signal that more recently supply and demand has reached some sort of balance, with the supply of apartments matching the demand in the market.&lt;/p&gt;
+
+&lt;p&gt;Does this mean that apartments are “easy” to afford for families? That’s a tougher question that leads us into mortgage territory and the unique properties of the lending market in Mongolia.&lt;/p&gt;
+
+&lt;p&gt;We can leave that for another day.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="apartments" /><category term="housing" /><category term="salary" /><category term="economy" /><summary type="html">It’s hard to think of something more at the core of society than the family dwelling. It’s where you hang your hat, put your family possessions, and spend time with the ones you are closest to. For many families in Ulaanbaatar, this means an apartment in a multi-level building.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/apartment-price-income-ratio/apartment-skyline.jpg" /><media:content medium="image" url="https://mongoliandatastories.com/images/apartment-price-income-ratio/apartment-skyline.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mongolia is running on fumes</title><link href="https://mongoliandatastories.com/Mongolias-fuel-shortage" rel="alternate" type="text/html" title="Mongolia is running on fumes" /><published>2021-09-21T00:00:00+08:00</published><updated>2021-09-21T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Mongolias-fuel-shortage</id><content type="html" xml:base="https://mongoliandatastories.com/Mongolias-fuel-shortage">&lt;p&gt;Just yesterday I learned that there has been a gasoline “shortage” for a few weeks in Mongolia. I put shortage in quotation marks because it seems the government and average citizens did not immediately agree on the reality of the situation.&lt;/p&gt;
 
 &lt;p&gt;On September 14, 2021,  the Mineral Resources and Petroleum Authority of Mongolia  made a &lt;a href=&quot;https://montsame.mn/mn/read/275097&quot;&gt;statement&lt;/a&gt; via the state news agency Montsame unequivocaly stating that there is no shortage of gasoline. This is heavily contrasted by reports on social media of limitations on purchases or outages at some stations.&lt;/p&gt;
 
@@ -578,44 +671,4 @@ _Last December Synced compiled its first “Artificial Intelligence Failures” 
 
 &lt;hr /&gt;
 &lt;h4 id=&quot;mds-newsletter&quot;&gt;MDS Newsletter&lt;/h4&gt;
-&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="open data" /><summary type="html">Where to find data on Mongolia</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/open-data-mongolia/cover.jpeg" /><media:content medium="image" url="https://mongoliandatastories.com/images/open-data-mongolia/cover.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mongolia’s Economic Future is Chained to China</title><link href="https://mongoliandatastories.com/Mongolias-Economic-Future-Chained-China" rel="alternate" type="text/html" title="Mongolia’s Economic Future is Chained to China" /><published>2018-05-21T00:00:00+08:00</published><updated>2018-05-21T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Mongolias-Economic-Future-Chained-China</id><content type="html" xml:base="https://mongoliandatastories.com/Mongolias-Economic-Future-Chained-China">&lt;h4 id=&quot;that-is-unless-mongolias-export-partners-diversify&quot;&gt;That is, unless Mongolia’s export partners diversify&lt;/h4&gt;
-
-&lt;p&gt;It’s a rather gloomy title, but it is appropriate. There has been much discussion about diversifying the Mongolian economy to avoid the boom and bust cycle that has become common (see &lt;a href=&quot;https://medium.com/@turtogtokherdenebaatar/opportunity-to-diversify-the-mongolian-economy-3b7f178339b1&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://globalriskinsights.com/2016/04/mongolia-needs-to-diversify-to-avoid-recession/&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://www.xinhuanet.com/english/2018-03/29/c_137074975.htm&quot;&gt;here&lt;/a&gt; to name a few). Less has been discussed regarding diversifying trading partners.&lt;/p&gt;
-
-&lt;p&gt;For those familiar with the Mongolian economy, it is clear that China plays a big role in imports to the country. Yet I believe it is less known by the average Mongolian how closely exports are tied to China as well.&lt;/p&gt;
-
-&lt;p&gt;With all of the efforts of diversification, is the economy safer if nearly all of Mongolia’s exports go to one trading partner? Now factor in Chinese government whims to close the border &lt;a href=&quot;https://www.aljazeera.com/news/2016/12/china-blocks-mongolia-border-dalai-lama-visit-161210060313417.html&quot;&gt;whenever it fancys&lt;/a&gt;. This seems to be a recipe for economic uncertainty.&lt;/p&gt;
-
-&lt;p&gt;To understand just how closely Mongolia’s exports are tied to China I gathered data from the &lt;a href=&quot;http://www.1212.mn/&quot;&gt;National Statistical Office&lt;/a&gt; and dug in. These data show Mongolia’s export value from 2005–2017 and is broken down by country.&lt;/p&gt;
-
-&lt;h3 id=&quot;mapping-exports&quot;&gt;Mapping Exports&lt;/h3&gt;
-
-&lt;p&gt;First I wanted to visually see where Mongolia’s products and services are going around the world. I animated a global map, showing a new image for each year, and shaded the countries by the amount of exports going to that country. The darker the higher the value.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/mongolia-chained-china/exports-over-time.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;China remains dark throughout the period while other trading partners get significantly lighter. There is only one country that ends darker than it started, the United Kingdom. Interestingly enough back in 2005 the United States was number two, yet was still far away from the export value of China.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/mongolia-chained-china/exports-2005.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;charting-exports&quot;&gt;Charting Exports&lt;/h3&gt;
-
-&lt;p&gt;Let’s take a look at real numbers now. But I warn you, they aren’t any prettier.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/mongolia-chained-china/charting-exports.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here you can see the massive proportion of exports going to China from Mongolia. Every other country is dwarfed.&lt;/p&gt;
-
-&lt;h3 id=&quot;total-exports&quot;&gt;Total Exports&lt;/h3&gt;
-
-&lt;p&gt;Of course it’s not all doom and gloom. Since 2005 Mongolia’s exports have increased tremendously, propelling the country’s economy to new heights. The total value has gone from just over 1 billion USD to over 6 billion USD today.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/mongolia-chained-china/exports-forecast.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Total value of Mongolian exports with a linear forecast. Error bars shown are based on a 95% confidence interval.&lt;/p&gt;
-
-&lt;p&gt;Mongolian exports will continue to grow, and hopefully in a diversified way that includes more than natural resources and more than just China. Putting all your eggs in one basket is never a good idea.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h4 id=&quot;mds-newsletter&quot;&gt;MDS Newsletter&lt;/h4&gt;
-&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="trade" /><category term="china" /><summary type="html">That is, unless Mongolia’s export partners diversify</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/mongolia-chained-china/charting-exports.png" /><media:content medium="image" url="https://mongoliandatastories.com/images/mongolia-chained-china/charting-exports.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="open data" /><summary type="html">Where to find data on Mongolia</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/open-data-mongolia/cover.jpeg" /><media:content medium="image" url="https://mongoliandatastories.com/images/open-data-mongolia/cover.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

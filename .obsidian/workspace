@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-09-21-Mongolias-fuel-shortage.md",
+            "file": "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 339
   },
   "right": {
     "id": "d006e5675804829d",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-09-21-Mongolias-fuel-shortage.md",
+                "file": "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
+    "images/apartment-price-income-ratio/price_income_ratio.png",
+    "images/apartment-price-income-ratio/price_income_ratio_calculation.png",
+    "images/apartment-price-income-ratio/price_income_ratio_calculation_median.png",
+    "images/apartment-price-income-ratio/pricetoincomeratio.png",
+    "images/apartment-price-income-ratio/salary_median_wages.png",
+    "images/apartment-price-income-ratio/average_ub_homeprice_quarterly.jpeg",
+    "images/apartment-price-income-ratio/homeprice_income_ratio_numbeo.png",
     "_posts/2021-09-21-Mongolias-fuel-shortage.md",
-    "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md",
-    "_posts/2018-05-08-Mongolian-more-in-debt-than-ever-before.md",
-    "_posts/2018-05-21-Mongolias-Economic-Future-Chained-China.md",
-    "_posts/2018-10-22-open-data-mongolia.md",
-    "_posts/2019-02-08-Tsagaan-Sar-debt-cycle.md",
-    "_posts/2019-02-13-Ethical-matrix-dzud-forecasting.md",
-    "_posts/2019-05-20-Mongolian-meat-price-time-series-forecast.md",
-    "_posts/2019-09-18-Sqair-real-world-test.md",
-    "_posts/2020-06-17-Mongolian-Electoral-District-Demographic-Analysis.md"
+    "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md"
   ]
 }

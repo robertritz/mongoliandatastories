@@ -4,7 +4,7 @@ title:  Mongolia is running on fumes
 date:   2021-09-21 00:00:00 +0800
 image:  '/images/fuel-shortage/cover.jpg'
 tags:   [import, economy, fuel, gasoline]
-featured: true
+featured: 
 ---
 
 Just yesterday I learned that there has been a gasoline "shortage" for a few weeks in Mongolia. I put shortage in quotation marks because it seems the government and average citizens did not immediately agree on the reality of the situation. 

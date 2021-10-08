@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "The rent is too darn high. Right?",
+      "category" : "",
+      "tags"     : "apartments, housing, salary, and economy",
+      "url"      : "/Apartment-Price-Income-Ratio",
+      "date"     : "Oct 7, 2021",
+      "image": "/images/apartment-price-income-ratio/apartment-skyline.jpg"
+    } ,
+  
+    {
       "title"    : "Mongolia is running on fumes",
       "category" : "",
       "tags"     : "import, economy, fuel, and gasoline",

@@ -1,0 +1,52 @@
+I"�<p><strong>TLDR</strong></p>
+<ul>
+  <li>asdf</li>
+  <li>asdfasd</li>
+</ul>
+
+<p>It’s hard to think of something more at the core of society than the family dwelling. It’s where you hang your hat, put your family possessions, and spend time with the ones you are closest to. For many families in Ulaanbaatar, this means an apartment in a multi-level building.</p>
+
+<p>As children grow up, get married, and have children (but not always in that order), families often scrape together enough money to purchase an apartment for the budding young family to start their lives together. It sounds quite idylic, something akin to a “Mongolian Dream” rivaling the American one.</p>
+
+<p>It’s easy to argue that this Mongolian Dream is a false one, propped up by a highly profitable construction sector, but that’s not what I’m here to do. I’m here to answer a Tweet. That’s right, a Tweet. Perhaps you get motivated by lofty ideals or a sense of justice. I tend to pay attention to Twitter too much.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/RobertERitz?ref_src=twsrc%5Etfw">@RobertERitz</a> do you want to take a crack at this? Median income is with NSO, average flat price index is with <a href="https://twitter.com/TenkhlegZuuch?ref_src=twsrc%5Etfw">@TenkhlegZuuch</a> and MIK group company</p>&mdash; Эрдэнийн ЛХАГВА (@Lkhagva) <a href="https://twitter.com/Lkhagva/status/1441303059829649415?ref_src=twsrc%5Etfw">September 24, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Following the Evergrande debt crisis, Bloomberg published an <a href="https://www.bloomberg.com/news/features/2021-09-22/china-s-evergrande-debt-crisis-is-stress-test-no-one-wanted">article</a> showing the price to income ratio for various Chinese cities compared to well known cities around the world. Naturally you might wonder where Ulaanbaatar stacks up in this list of global cities?</p>
+
+<p>First let’s define how the price to income ratio was created. The data for this chart came from <a href="https://www.numbeo.com/property-investment/rankings.jsp?title=2021-mid&amp;displayColumn=0">Numbeo</a>, a living costs data aggregator. Numbeo uses a simple formula consisting of the ratio of average price per square meter and average salary. They assume a apartment size of 90 square meters and they take 1.5 times the average annual net salary as a measure of net disposable family income. This 1.5 number assumes an average of 2 earners in a family with 50% of the women participating in the workforce.</p>
+
+<p><img src="/images/apartment-price-income-ratio/pricetoincomeratio.png" alt="" /></p>
+
+<p>These assumptions might not apply well to Mongolia, but we can address these later. By having a consistent methodology we can compare all of these countries on housing affordability. Conveniently, Numbeo actually does calculate the price to income ratio for Ulaanbaatar. All put together, here is the chart from mid-2021.</p>
+
+<p><img src="/images/apartment-price-income-ratio/homeprice_income_ratio_numbeo.png" alt="" /></p>
+
+<p>Being towards the bottom of the chart, Ulaanbaatar does not look too bad next to the ultra expensive cities in China. But look at the two cities Ulaanbaatar is more expensive than in this list. New York and San Francisco!</p>
+
+<h2 id="using-local-data-sources">Using Local Data Sources</h2>
+
+<p>Let’s take a step back. How sure are we that these numbers are accurate? Using local and reliable data sources, I wanted to calculate the price to income ratio to verify that the result from Numbeo is accurate.</p>
+
+<p>Digging around for data, there are a few issues with the price to income ratio as calculated by Numbeo. First, it is not clear whether Numbeo is using average or median salary in its calculation. In Mongolia the median salary is substantially less than the average salary.</p>
+
+<p><img src="/images/apartment-price-income-ratio/salary_median_wages.png" alt="" /></p>
+
+<p>This is due to a small number of high earners skewing the average higher while the median (or middle) salary is lower. While average salary data are available for both Ulaanbaatar and the national level, data for median salary are only available at the national level from the National Statistics Office of Mongolia.</p>
+
+<p>It is also important to note that generally when a median is much smaller than an average, the mode (the most common observation) is generally even smaller than the median. Given these facts we probably should not consider the statistically average Mongolian to actually be very average at all.</p>
+
+<p>The second issue is related to the price per square meter of housing. In countries like the United States the average price of housing would include apartments for purchase, smaller multi-family dwellings, and single family units. In Ulaanbaatar, when the price of housing is discussed it almost always refers to the price of apartments, not single family units. Yet 50% or more of the population of Ulaanbaatar does not live in apartments. So any ratio we make with the available data would be limited in scope to apartments and not the full spectrum of housing available in Ulaanbaatar.</p>
+
+<p>With these issues in mind we can calculate a price to income ratio using available data. I used the same formula as Numbeo to keep things consistent.</p>
+
+<ul>
+  <li>Average Ulaanbaatar salary for Q2 2021 via <a href="http://www.1212.mn/tables.aspx?tbl_id=dt_nso_0400_021v1&amp;soum_select_all=0&amp;soumsingleselect=_511_0&amp;gender_select_all=0&amp;gendersingleselect=_1&amp;yearq_select_all=1&amp;yearqsingleselect=&amp;yeary_select_all=0&amp;yearysingleselect=&amp;viewtype=linechart">1212.mn</a>: ₮1,433,100</li>
+  <li>Average price per square meter of apartments for Q2 2021 in Ulaanbaatar via Doljoo from Tenkhleg Zuuch on <a href="https://twitter.com/Shoot91/status/1441313879271772163?s=20">Twitter</a>: ₮2,467,047</li>
+  <li>10% Income Tax + 13.5% Social Insurance = Tax rate of 23.5%</li>
+</ul>
+
+<p>Putting it all together we can take the average price per square meter multiplied by 90 square meters to get the average price of an apartment. we take the monthly net salary (average salary minus taxes) and multiple it by 12 months then 1.5 to get the estimated family income.</p>
+
+:ET
