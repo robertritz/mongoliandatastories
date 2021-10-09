@@ -51,7 +51,7 @@
 <meta property="twitter:image" content="https://mongoliandatastories.com/images/mongolias-150000-license-plate/cover.png" />
 <meta property="twitter:title" content="Mongolia’s $150,000 license plate" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://mongoliandatastories.com/Mongolias-150-000-License-Plate"},"author":{"@type":"Person","name":"Robert Ritz"},"image":"https://mongoliandatastories.com/images/mongolias-150000-license-plate/cover.png","headline":"Mongolia’s $150,000 license plate","dateModified":"2021-02-15T00:00:00+08:00","description":"Would you pay this much for the country’s “best” license plate?","datePublished":"2021-02-15T00:00:00+08:00","url":"https://mongoliandatastories.com/Mongolias-150-000-License-Plate","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","image":"https://mongoliandatastories.com/images/mongolias-150000-license-plate/cover.png","headline":"Mongolia’s $150,000 license plate","dateModified":"2021-02-15T00:00:00+08:00","datePublished":"2021-02-15T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://mongoliandatastories.com/Mongolias-150-000-License-Plate"},"author":{"@type":"Person","name":"Robert Ritz"},"description":"Would you pay this much for the country’s “best” license plate?","url":"https://mongoliandatastories.com/Mongolias-150-000-License-Plate","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -574,6 +574,54 @@
 </div>
 
 
+<div class="container">
+  <div class="row">
+    <div class="col col-8 col-d-10 push-2 push-d-1 col-t-12 push-t-0">
+        <!-- begin comments -->
+<div class="post__comments" id="disqus_thread"></div>
+
+<div class="show-comments">
+  <button class="disqus-button button" id="show-comments-button" onclick="disqus();return false;">Comments</button>
+</div>
+
+
+<script>
+  var disqus_loaded = false;
+  var disqus_shortname = 'en-mongoliandatastories';
+  function disqus() {
+    if (!disqus_loaded) {
+      disqus_loaded = true;
+      var e = document.createElement("script");
+      e.type = "text/javascript";
+      e.async = true;
+      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0])
+        .appendChild(e);
+      // Hide the button after opening
+      document.getElementById("show-comments-button").style.display = "none";
+    }
+  }
+  window.addEventListener('scroll', function(e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
+
+    if( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
+      disqus();
+      console.log('Disqus loaded.');
+    }
+  }, false);
+</script>
+<noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<!-- end comments -->
+    </div>
+  </div>
+</div>
+
+
+
 
 
 
@@ -691,46 +739,6 @@
     </div>
   </div>
 </div>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col col-8 col-d-10 push-2 push-d-1 col-t-12 push-t-0">
-        <!-- begin comments -->
-<div class="show-comments">
-  <button class="disqus-button button" id="show-comments-button" onclick="disqus();return false;">Comments</button>
-</div>
-
-
-<div class="post__comments" id="disqus_thread"></div>
-
-
-<script>
-  var disqus_loaded = false;
-  var disqus_shortname = 'en-mongoliandatastories';
-  function disqus() {
-    if (!disqus_loaded) {
-      disqus_loaded = true;
-      var e = document.createElement("script");
-      e.type = "text/javascript";
-      e.async = true;
-      e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-      (document.getElementsByTagName("head")[0] ||
-        document.getElementsByTagName("body")[0])
-        .appendChild(e);
-      // Hide the button after opening
-      document.getElementById("show-comments-button").style.display = "none";
-    }
-  }
-</script>
-<noscript>Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
-<!-- end comments -->
-    </div>
-  </div>
-</div>
-
     </main> 
     <!-- end content -->
     

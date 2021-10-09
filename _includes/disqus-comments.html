@@ -1,10 +1,9 @@
 <!-- begin comments -->
+<div class="post__comments" id="disqus_thread"></div>
+
 <div class="show-comments">
   <button class="disqus-button button" id="show-comments-button" onclick="disqus();return false;">Comments</button>
 </div>
-
-
-<div class="post__comments" id="disqus_thread"></div>
 
 
 <script>
@@ -24,6 +23,15 @@
       document.getElementById("show-comments-button").style.display = "none";
     }
   }
+  window.addEventListener('scroll', function(e) {
+    var currentScroll = document.scrollingElement.scrollTop;
+    var disqus_target = document.getElementById('disqus_thread');
+
+    if( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
+      disqus();
+      console.log('Disqus loaded.');
+    }
+  }, false);
 </script>
 <noscript>Please enable JavaScript to view the
   <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
