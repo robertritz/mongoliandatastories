@@ -12,9 +12,6 @@ Mongolian Data Stories was started in 2018 to tell “the hidden side” of Mong
 
 Originally this blog was hosted on Medium, but in 2021 the blog found a new home on Github pages. The new site opens up a lot of flexibility to now also host translated articles, embed more sophisticated visualizations, and hopefully become a place you want to come to read about Mongolia.
 
-The English language version of the blog is at https://mongoliandatastories.com.
-The Mongolian language version of the blog is at https://mn.mongoliandatastories.com.
-
 * * *
 
 ### Notebooks
