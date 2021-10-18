@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
+            "file": "_drafts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
+                "file": "_drafts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "464ec207386093c1",
   "lastOpenFiles": [
+    "_drafts/2021-05-16-Faceook_s Political Ad Policy in Mongolia.md",
+    "_drafts/2021-10-14-Mongolias-Marriage-Spike.md",
+    "_drafts/Untitled.md",
     "_posts/2021-10-07-Apartment-Price-Income-Ratio.md",
     "images/apartment-price-income-ratio/price_income_ratio.png",
     "images/apartment-price-income-ratio/price_income_ratio_calculation.png",
     "images/apartment-price-income-ratio/price_income_ratio_calculation_median.png",
     "images/apartment-price-income-ratio/pricetoincomeratio.png",
     "images/apartment-price-income-ratio/salary_median_wages.png",
-    "images/apartment-price-income-ratio/average_ub_homeprice_quarterly.jpeg",
-    "images/apartment-price-income-ratio/homeprice_income_ratio_numbeo.png",
-    "_posts/2021-09-21-Mongolias-fuel-shortage.md",
-    "_posts/2017-11-30-A-First-Look-at-Mongolian-Crime-Data.md"
+    "images/apartment-price-income-ratio/average_ub_homeprice_quarterly.jpeg"
   ]
 }

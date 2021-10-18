@@ -1,3 +1,4 @@
 {
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "promptDelete": false
 }
