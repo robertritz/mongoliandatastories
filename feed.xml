@@ -1,4 +1,152 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mongoliandatastories.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mongoliandatastories.com/" rel="alternate" type="text/html" /><updated>2021-10-25T09:54:36+08:00</updated><id>https://mongoliandatastories.com/feed.xml</id><title type="html">Mongolian Data Stories</title><subtitle>Telling Mongolia's story through data.</subtitle><author><name>Robert Ritz</name></author><entry><title type="html">What happens if you pay people to get married?</title><link href="https://mongoliandatastories.com/Mongolias-marriage-spike" rel="alternate" type="text/html" title="What happens if you pay people to get married?" /><published>2021-10-20T00:00:00+08:00</published><updated>2021-10-20T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Mongolias-marriage-spike</id><content type="html" xml:base="https://mongoliandatastories.com/Mongolias-marriage-spike">&lt;p&gt;We often think of marriage as a serious thing. When you marry someone, most people believe that it will be a lifelong commitment. From much research in many countries, we know that there are many benefits to being married, from living longer to lower insurance rates.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mongoliandatastories.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mongoliandatastories.com/" rel="alternate" type="text/html" /><updated>2021-12-01T21:03:17+08:00</updated><id>https://mongoliandatastories.com/feed.xml</id><title type="html">Mongolian Data Stories</title><subtitle>Telling Mongolia's story through data.</subtitle><author><name>Robert Ritz</name></author><entry><title type="html">Which grocery store in Ulaanbaatar is cheapest?</title><link href="https://mongoliandatastories.com/UB-Market-Price-Analysis" rel="alternate" type="text/html" title="Which grocery store in Ulaanbaatar is cheapest?" /><published>2021-12-01T00:00:00+08:00</published><updated>2021-12-01T00:00:00+08:00</updated><id>https://mongoliandatastories.com/UB-Market-Price-Analysis</id><content type="html" xml:base="https://mongoliandatastories.com/UB-Market-Price-Analysis">&lt;p&gt;Since moving to Ulaanbaatar in 2013, I’ve been to nearly every market in the city. I was struck by the opposite worlds of the zakh and the supermarket. One feels bustling but is arguably less convenient (no carts, very little parking). The other is more structured and has more packaged products but is often lacking in the selection of fresh foods. In some ways it’s indicative of the dichotomy that exists in Ulaanbaatar in general between the new and the old, the urban and periurban&lt;/p&gt;
+
+&lt;p&gt;Zakh (зах) translates to market and is segmented in different areas such as vegetables and fruit, meat, and dry goods. In each area, vendors rent or own stalls where they sell their products. The products in each section are generally the same from stall to stall, with little variation. Cash used to be the only way to make a purchase, but more recently, card machines have become quite common (even preferred!).&lt;/p&gt;
+
+&lt;p&gt;A supermarket in Ulaanbaatar is pretty comparable to western supermarkets. Aisles of products with often many choices for each product. The main exception is the meat section. I’ve noticed that most supermarkets in Ulaanbaatar don’t stock much fresh meat, and if they do the selection is quite small (except Emart, which has a quite large meat section).&lt;/p&gt;
+
+&lt;p&gt;Even casual observers will note that prices in a zakh are lower than in supermarkets. Most of us only have a limited sample to work with, which means our observations are limited. Fortunately, the National Statistics Office of Mongolia tracks weekly prices for several products at all major supermarkets and zakhs in Ulaanbaatar. The products tracked are staple food products (meat, flour, bread, butter, eggs, etc.) that are most common in households. My understanding is this data feeds into consumer price index (CPI) inflation calculations based on the basket of goods identified by the government.&lt;/p&gt;
+
+&lt;p&gt;Don’t know what a “basket of goods” is? Imagine a shopping cart for the whole country. What set of products would nearly every family choose to purchase for their home? Probably basics like flour, eggs, milk, bread, meat, potatoes, carrots, and a few others. This set of products is then tracked to understand both CPI and can also be used to assess things like the poverty line, cost of living, and others.&lt;/p&gt;
+
+&lt;p&gt;You probably aren’t aware of this data source, as it is available only on the Mongolian 1212.mn page and also under a menu that might not grab your attention. If you are interested, check it out &lt;a href=&quot;https://1212.mn/BookLibrary.aspx?category=004&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I identified three questions I wanted to answer while looking at the data.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Which markets are most/least expensive over time?&lt;/li&gt;
+  &lt;li&gt;Did COVID-19 have a noticeable impact on prices?&lt;/li&gt;
+  &lt;li&gt;Do markets use psychological pricing? For example, carrots for 1,899 instead of 1,900 tugriks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, let’s get to it!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-markets-and-products-do-the-data-cover&quot;&gt;What markets and products do the data cover?&lt;/h2&gt;
+
+&lt;p&gt;To collect the data, I built a scraper (&lt;a href=&quot;https://deepnote.com/project/UB-Market-Price-Analysis-XCm2UVeZTs-MqI4_J0lh4g/%2FData%20Collection.ipynb&quot;&gt;link to code&lt;/a&gt;) to collect all Excel files from the NSO webpage and merged them into one file. I only selected files after January 1, 2019.&lt;/p&gt;
+
+&lt;p&gt;Here is a heatmap showing which products are available at each market around the city. Market names and product names were translated into English.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/product_availability.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, not all products are always available at every zakh or supermarket. Goat meat and reserve meat are two notable items here. Goat meat isn’t always in demand in Mongolia, and reserve meat is only seasonably available depending on the Ministry of Agricultures program to provide low-cost meat.&lt;/p&gt;
+
+&lt;p&gt;I merged Mercury and Ikh Nayad as most of the shop keepers from the old Mercury market moved to Ikh Nayad. Also, Max Supermarket changed its name to M Mart, so I’ve reflected that in the chart as well. Saruul is a newer zakh, so there weren’t as many records for it.&lt;/p&gt;
+
+&lt;p&gt;From all the products in the chart above, I decided to select the eight common products (in my mind) to make the further analysis simpler and a bit easier to digest. They are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Suu Brand Milk, 1L&lt;/li&gt;
+  &lt;li&gt;Egg, Russian&lt;/li&gt;
+  &lt;li&gt;Potato, Mongolian&lt;/li&gt;
+  &lt;li&gt;Carrot, Mongolian&lt;/li&gt;
+  &lt;li&gt;White Rice&lt;/li&gt;
+  &lt;li&gt;Atar Brand Bread&lt;/li&gt;
+  &lt;li&gt;Beef w/Bones&lt;/li&gt;
+  &lt;li&gt;Mutton w/Bones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There will always be “one more thing” people may want to see in the analysis, but I hopefully covered the most common products. From here, let’s move on to looking at price differences between markets.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-markets-are-mostleast-expensive&quot;&gt;Which markets are most/least expensive?&lt;/h2&gt;
+
+&lt;p&gt;If you live in Ulaanbaatar, I’m sure you already have an opinion about this. Something like,&lt;/p&gt;
+
+&lt;p&gt;“The meat is good at Bayanzurkh, but it’s cheaper at Bars.”&lt;/p&gt;
+
+&lt;p&gt;Or perhaps something more specific and even devious.&lt;/p&gt;
+
+&lt;p&gt;“Emart sells their vegetables for cheaper, but their meat is always the most expensive. But it’s great quality (Because obviously if it’s more expensive, it’s better quality!).”&lt;/p&gt;
+
+&lt;p&gt;I’ve never been to a country where people didn’t complain about prices in the store. It’s practically part of the human condition. Personal observations are always made with a limited sample, so let’s step back and see what the data says.&lt;/p&gt;
+
+&lt;p&gt;It was tough to figure out how to present this data. I generally prefer to show a time series to give the complete picture and let people decide. Even with only eight products, the time series graphs were confusing, and there wasn’t much of a clear point. I wanted to take a different approach.&lt;/p&gt;
+
+&lt;p&gt;A dumbbell chart allows you to see the difference in two times of several things all in one chart. You lose everything between those two times, but it gives a simplified picture that is much easier to digest than a line plot.&lt;/p&gt;
+
+&lt;p&gt;I created one chart for each of the eight products I selected. Each chart shows the difference in price from November 2019 to November 2021 for each market. This allows you to see how prices have changed and which markets are cheaper or more expensive between these two times.&lt;/p&gt;
+
+&lt;p&gt;Let’s take of look to see how eggs have changed in price over the past two years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/eggs_dumbbell.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see that the price of eggs has increased. Supermarkets are also clearly more expensive per egg. The most expensive supermarket is 25% more expensive than several of the zakh’s.&lt;/p&gt;
+
+&lt;p&gt;I built a dumbbell chart for each of the eight products. Here is a gallery showing each of the charts. You can click on each to see them.&lt;/p&gt;
+
+&lt;div class=&quot;gallery-box&quot;&gt;
+	&lt;div class=&quot;gallery&quot;&gt;
+		&lt;img src=&quot;/images/market_prices/bread_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/carrots_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/potato_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/rice_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/milk_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/beef_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/mutton_dumbbell.png&quot; /&gt;
+		&lt;img src=&quot;/images/market_prices/eggs_dumbbell.png&quot; /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After looking at these, you can come to some pretty easy conclusions. For most products, supermarkets are more expensive than at the zakh. Also, pretty much everything has gotten more expensive in the past two years. The exception is potatoes, specifically at Emart. For some reason, those got cheaper. &lt;em&gt;Insert sinister conspiracy theory here.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I also think it’s worth it to look at the supermarket you usually shop at and ask yourself why you shop there? Are you sensitive to small changes in price, or do you choose your store because of convenience? If you are very price-sensitive, you now have some better information to make your decision. If not, well, then you at least know what the price picture is in other places.&lt;/p&gt;
+
+&lt;p&gt;One thing that surprised me is that Emart is not always the most expensive supermarket. It was my observation going into this article, and it didn’t seem to be true. Just keep in mind that our sample of products is limited to a few everyday staple products. Emart may keep prices low for these products to drive customers to the store and then charge higher prices for prepared or packaged food.&lt;/p&gt;
+
+&lt;p&gt;Let’s move on to the next question.&lt;/p&gt;
+
+&lt;h2 id=&quot;has-covid-19-impacted-prices&quot;&gt;Has COVID-19 impacted prices?&lt;/h2&gt;
+
+&lt;p&gt;There isn’t much to do here besides plot a time series of prices and take a look. Here it is. I’ve excluded meat prices as they are significantly higher than the other prices. The prices in the chart below are the average weekly prices of all markets in the dataset.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/inflation_covid.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Considering that COVID-19 started in 2020 and the first serious lockdown happened in late 2020 in Mongolia, we don’t see much change in prices during that time. What we do see is a pretty significant increase in the past few months. In July 2021, carrots went above their maximum price from the previous two years. For the other products in the list, we see a clear upward trend since around September 2021.&lt;/p&gt;
+
+&lt;p&gt;There are many moving pieces to get products from the field to the market, so it isn’t easy to know what is causing the recent spikes. You would expect that you would see the market respond by adjusting prices after an increase in fuel prices or a market shock like a lockdown. This didn’t happen until very recently. I found this very odd.&lt;/p&gt;
+
+&lt;p&gt;AI-92 prices increased by &lt;a href=&quot;https://montsame.mn/en/read/269054&quot;&gt;300 MNT per liter&lt;/a&gt; in July 2021, so there could have been a delayed impact. Combined with the Chinese border closure, these events could put more pressure on supply by increasing costs and restricting imports. Economists with more knowledge than me of Mongolia’s market dynamic could probably explain this better than me.&lt;/p&gt;
+
+&lt;p&gt;Lastly, I wanted to look at how markets price their products and perhaps see whether they use psychological pricing or not.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-markets-use-psychological-pricing&quot;&gt;Do markets use psychological pricing?&lt;/h2&gt;
+
+&lt;p&gt;Psychological pricing is when a business uses pricing strategies to either make the customer feel better about the product or make the customer believe it’s cheaper. For example, a product could be priced for 1,999 tugriks instead of 2,000 tugriks.&lt;/p&gt;
+
+&lt;p&gt;There are several psychological pricing strategies, and honestly, I didn’t want to test all of them for every product. One simple test is to count the frequency of prices that end in a certain number of zeros. For example, a price ending in three zeros would be 1,000, 4,000, etc. This tells us the price is an even thousand. We can repeat this test for one zero (‘0), two zeros (‘00), and three zeros (‘000).&lt;/p&gt;
+
+&lt;p&gt;Here are the results for three zeros (‘000).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/prices_thousands.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the chart above, zakhs tend to have prices in the thousands and supermarkets don’t. This intuitively makes a lot of sense, as markets may commonly accept cash, and items are purchased at individual stalls. At supermarkets, items are put into a cart and added up. So the price for an individual product is less noticed at a supermarket than a zakh.&lt;/p&gt;
+
+&lt;p&gt;Next, we can look at the frequency of prices ending in two zeros (‘00).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/prices_hundreds.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The story here is identical, not much to tell.&lt;/p&gt;
+
+&lt;p&gt;Finally, we can look at the frequency of prices ending in one zero (‘0).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/market_prices/prices_tens.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The clear psychological pricing outlier of all supermarkets and zakhs in Ulaanbaatar is Nomin. Imagine a product priced at 1,479 vs 1,400. This doesn’t mean much to the consumer, but it could be a significant revenue boost across many products to the store. If 1,000 products are sold a day with an extra 79 tugriks added, that’s 2.37 million tugriks extra each month across many stores. That can equal a significant revenue difference.&lt;/p&gt;
+
+&lt;p&gt;Note that Saruul is lower here just because they didn’t have as many records in our data.&lt;/p&gt;
+
+&lt;h2 id=&quot;did-you-change-your-mind&quot;&gt;Did you change your mind?&lt;/h2&gt;
+
+&lt;p&gt;After wrapping up this analysis, I can safely say that my mind wasn’t changed much. I mostly knew that supermarkets were more expensive. One thing I did learn was how similarly priced Emart is compared to other supermarkets on many products. Again, I don’t know if this pricing extends to products outside the sample we have, so this might not hold true in general.&lt;/p&gt;
+
+&lt;p&gt;What about you? Did you learn anything new with this data?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are interested in seeing the code used to collect or analyze the data for this article, you can find it &lt;a href=&quot;https://deepnote.com/project/UB-Market-Price-Analysis-XCm2UVeZTs-MqI4_J0lh4g/%2FMarket%20Price%20Analysis.ipynb&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;mds-newsletter&quot;&gt;MDS Newsletter&lt;/h4&gt;
+&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="ulaanbaatar" /><category term="economy" /><category term="prices" /><summary type="html">Since moving to Ulaanbaatar in 2013, I’ve been to nearly every market in the city. I was struck by the opposite worlds of the zakh and the supermarket. One feels bustling but is arguably less convenient (no carts, very little parking). The other is more structured and has more packaged products but is often lacking in the selection of fresh foods. In some ways it’s indicative of the dichotomy that exists in Ulaanbaatar in general between the new and the old, the urban and periurban</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/market_prices/market_cover.jpg" /><media:content medium="image" url="https://mongoliandatastories.com/images/market_prices/market_cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What happens if you pay people to get married?</title><link href="https://mongoliandatastories.com/Mongolias-marriage-spike" rel="alternate" type="text/html" title="What happens if you pay people to get married?" /><published>2021-10-20T00:00:00+08:00</published><updated>2021-10-20T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Mongolias-marriage-spike</id><content type="html" xml:base="https://mongoliandatastories.com/Mongolias-marriage-spike">&lt;p&gt;We often think of marriage as a serious thing. When you marry someone, most people believe that it will be a lifelong commitment. From much research in many countries, we know that there are many benefits to being married, from living longer to lower insurance rates.&lt;/p&gt;
 
 &lt;p&gt;Therefore it makes sense that the government, and society, would want to encourage people to get married. So, what if you offered people the equivalent of $500 to get married? Would existing couples “on the fence” decide to take the plunge? Would people in need of quick cash make a sham wedding?&lt;/p&gt;
 
@@ -639,64 +787,4 @@ _Last December Synced compiled its first “Artificial Intelligence Failures” 
 
 &lt;hr /&gt;
 &lt;h4 id=&quot;mds-newsletter&quot;&gt;MDS Newsletter&lt;/h4&gt;
-&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="dzud" /><category term="forecasting" /><summary type="html">In 2016 a pivotal book in the field of data science was released. Weapons of Math Destruction, by Cathy O’Neil, makes the claim that the algorithms which promise to change our world for the better can also reinforce discrimination, unfair bias, and cause damage on a massive scale.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/ethical-matrix-dzud-forecasting/cover.jpeg" /><media:content medium="image" url="https://mongoliandatastories.com/images/ethical-matrix-dzud-forecasting/cover.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Tsagaan Sar Debt Cycle</title><link href="https://mongoliandatastories.com/Tsagaan-Sar-debt-cycle" rel="alternate" type="text/html" title="The Tsagaan Sar Debt Cycle" /><published>2019-02-08T00:00:00+08:00</published><updated>2019-02-08T00:00:00+08:00</updated><id>https://mongoliandatastories.com/Tsagaan-Sar-debt-cycle</id><content type="html" xml:base="https://mongoliandatastories.com/Tsagaan-Sar-debt-cycle">&lt;p&gt;The entire country mobilizes weeks ahead of time to prepare. The city government, worried about traffic, only allows cars to drive during alternate days on the weekend. The bakeries are so consumed with making &lt;em&gt;ul boov&lt;/em&gt;, a traditional pastry, that bread starts to disappear from store shelves the week before the holiday.&lt;/p&gt;
-
-&lt;p&gt;This sounds like quite a lot, but it is just the run-up to the actual event, Tsagaan Sar, Mongolia’s lunar new year celebration. The main activity of the holiday (which goes on for three days) is where family (and extended family) visit their elders in their home. The guests traditionally bring money as a gift for their elders, and the guests are given gifts (sometimes small, sometimes large) in addition to a truly magnificent feast.&lt;/p&gt;
-
-&lt;p&gt;The video below shows the preparation of one of the signature dishes of Tsagaan Sar, &lt;em&gt;buuz&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Tsagaan Sar Preparation&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BymB9IYd2xE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;the-cost&quot;&gt;The Cost&lt;/h3&gt;
-
-&lt;p&gt;Each year new outlets write many articles sharing the costs of Tsagaan Sar. &lt;a href=&quot;https://news.mn/r/770526/&quot;&gt;News.mn estimated&lt;/a&gt; this year that cost for one family is about 1.32 million MNT (about $500 USD). To put his in perspective, more than half of those employed make less than &lt;a href=&quot;http://dnn.mn/%D1%86%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD-%D1%81%D0%B0%D1%80-%D0%B1%D0%B0-%D1%86%D0%B0%D0%BB%D0%B8%D0%BD-%D1%82%D1%8D%D1%82%D0%B3%D1%8D%D0%B2%D1%8D%D1%80%D0%B8%D0%B9%D0%BD-%D0%B7%D1%8D%D1%8D%D0%BB/&quot;&gt;$200 per month&lt;/a&gt;. A survey completed by a market research firm and reported by &lt;a href=&quot;http://bloombergtv.mn/%D0%B8%D1%80%D0%B3%D1%8D%D0%B4%D0%B8%D0%B9%D0%BD-62-%D1%85%D1%83%D0%B2%D1%8C-%D0%BD%D1%8C-%D0%B7%D1%8D%D1%8D%D0%BB%D1%8D%D1%8D%D1%80-%D1%86%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD-%D1%81%D0%B0%D1%80-%D1%82%D1%8D%D0%BC%D0%B4%D1%8D%D0%B3%D0%BB%D1%8D%D0%B6-357-%D1%82%D1%8D%D1%80%D0%B1%D1%83%D0%BC-%D1%82%D3%A9%D0%B3%D1%80%D3%A9%D0%B3%D0%B8%D0%B9%D0%B3-%D0%B8%D0%BC%D0%BF%D0%BE%D1%80%D1%82%D1%8B%D0%BD-%D0%B1%D1%8D%D0%BB%D1%8D%D0%B3%D1%82-%D0%B7%D0%B0%D1%80%D1%86%D1%83%D1%83%D0%BB%D0%B6-%D0%B1%D0%B0%D0%B9%D0%BD%D0%B0/&quot;&gt;BloombergTV Mongolia&lt;/a&gt; concluded that 62% of those surveyed take out loans for the holiday.&lt;/p&gt;
-
-&lt;p&gt;I’ve thought about the cost of Tsagaan Sar for a few years now, but not in absolute costs. I’ve written before about the &lt;a href=&quot;https://medium.com/mongolian-data-stories/mongolians-are-more-in-debt-now-than-ever-7f797e448f77&quot;&gt;growing debt&lt;/a&gt; in Mongolia, and I wanted to see how the holiday impacted those who hold the greatest burden, the elders responsible for hosting 10’s or 100’s of guests. Phrased in a testable way:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Do pension or salary loans issuances show an increase for Tsagaan Sar separate from the rest of the year?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;loan-data&quot;&gt;Loan Data&lt;/h3&gt;
-
-&lt;p&gt;Luckily, MongolBank, the country’s central bank, &lt;a href=&quot;https://www.mongolbank.mn/eng/dbliststatistic.aspx?id=02&quot;&gt;keeps statistics&lt;/a&gt; many statistics on loans. I chose salary and pension loans because they are issued to individuals and are not (directly) used to purchase real estate. Pension loans are of particular interest because they are given using the government pension of the person as collateral.&lt;/p&gt;
-
-&lt;p&gt;To do the analysis I downloaded the &lt;a href=&quot;https://www.mongolbank.mn/eng/dbliststatistic.aspx?id=02&quot;&gt;quarterly report&lt;/a&gt; of “ Individual and SME loans issued by banks” and separated out salary and pension loans issued. The data is only available quarterly or annually. Quarterly actually suits our needs quite well as Tsagaan Sar always takes place in Q1 while the exact dates move every year.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tsagaan-sar-debt-cycle/dataframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The head of our issued loans data. All numbers are in millions of MNT.&lt;/p&gt;
-
-&lt;p&gt;Let’s first take a look at the time series of both salary and pension loans.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tsagaan-sar-debt-cycle/salary-loans-issued.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tsagaan-sar-debt-cycle/pension-loans-issued.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Other than the obvious large increases in both, the thing to notice is when each increases during the year. It is already noticeable that pension loans have a spike at the beginning of each year while salary loans spike later.&lt;/p&gt;
-
-&lt;p&gt;To do a trend analysis we can use the handy &lt;a href=&quot;https://facebook.github.io/prophet/&quot;&gt;Prophet&lt;/a&gt; package from Facebook. There is a built-in seasonality tool that is perfect for this analysis. The tool is built on daily data analysis, so changes were made to accommodate a quarterly period (mainly reducing the &lt;a href=&quot;https://facebook.github.io/prophet/docs/seasonality,_holiday_effects,_and_regressors.html#fourier-order-for-seasonalities&quot;&gt;Fourier order&lt;/a&gt; for seasonality). The graphs below show the derived trends.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tsagaan-sar-debt-cycle/salary-loans-seasonal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is important to remember when interpreting these graphs that as we only have one data point per quarter, Prophet is interpolating the trends between the quarters. For reference, quarters end March 31, June 30, September 30, and December 31.&lt;/p&gt;
-
-&lt;p&gt;Salary loans do show a large trend in Q1, but the largest trend appears to be in Q3. Perhaps parents trying to get enough money to pay for school tuition, clothes, etc.?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tsagaan-sar-debt-cycle/pension-loan-seasonal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pension loans have an obvious upward trend in Q1, with Q2 and Q3 being significantly smaller. Can we answer our question?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Do pension or salary loans issuances show an increase for Tsagaan Sar separate from the rest of the year?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, we certainly see a large increase in pension loans in Q1, which is when you would expect Tsagaan Sar expenditures, and therefore the need for cash. This certainly seems to fit with the narrative that the elderly are the most impacted, and are taking out loans specifically for the holiday.&lt;/p&gt;
-
-&lt;p&gt;Perhaps if you visit a family next year for Tsagaan Sar you may consider giving a bit more money to help offset these costs.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h4 id=&quot;mds-newsletter&quot;&gt;MDS Newsletter&lt;/h4&gt;
-&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="tsagaan-sar" /><category term="debt" /><summary type="html">The entire country mobilizes weeks ahead of time to prepare. The city government, worried about traffic, only allows cars to drive during alternate days on the weekend. The bakeries are so consumed with making ul boov, a traditional pastry, that bread starts to disappear from store shelves the week before the holiday.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/tsagaan-sar-debt-cycle/cover.jpeg" /><media:content medium="image" url="https://mongoliandatastories.com/images/tsagaan-sar-debt-cycle/cover.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Thank you for reading. Mongolian Data Stories has a free newsletter! To receive new articles straight to your inbox so you never miss out, &lt;a href=&quot;https://www.getrevue.co/profile/mongoliandatastories&quot;&gt;click here to sign up&lt;/a&gt;.&lt;/p&gt;</content><author><name>Robert Ritz</name></author><category term="dzud" /><category term="forecasting" /><summary type="html">In 2016 a pivotal book in the field of data science was released. Weapons of Math Destruction, by Cathy O’Neil, makes the claim that the algorithms which promise to change our world for the better can also reinforce discrimination, unfair bias, and cause damage on a massive scale.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://mongoliandatastories.com/images/ethical-matrix-dzud-forecasting/cover.jpeg" /><media:content medium="image" url="https://mongoliandatastories.com/images/ethical-matrix-dzud-forecasting/cover.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
