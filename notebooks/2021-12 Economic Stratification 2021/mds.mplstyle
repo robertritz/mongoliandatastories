@@ -45,5 +45,5 @@ figure.subplot.bottom: 0.07
 figure.facecolor: ffffff
 figure.figsize: 12, 8
 
-figure.dpi: 150
+figure.dpi: 100
 savefig.dpi: 300
